@@ -1,0 +1,1173 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+<<<<<<< HEAD
+Z0 dC:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/simulation/modelsim
+Ealu_1
+Z1 w1682793104
+=======
+Z0 dC:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/simulation/modelsim
+Ealu_1
+Z1 w1682864389
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z7 8C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/alu_beh.vhd
+Z8 FC:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/alu_beh.vhd
+l0
+L6 1
+V>YjPSGGQZ?I6l>>:n=AK63
+!s100 BERW`RJl?YmhFNCOMl;?V0
+Z9 OV;C;2020.1;71
+31
+<<<<<<< HEAD
+Z10 !s110 1682884900
+!i10b 1
+Z11 !s108 1682884900.000000
+Z12 !s90 -reportprogress|300|-93|-work|work|C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/alu_beh.vhd|
+Z13 !s107 C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/alu_beh.vhd|
+=======
+Z10 !s110 1682864534
+!i10b 1
+Z11 !s108 1682864534.000000
+Z12 !s90 -reportprogress|300|-93|-work|work|C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/alu_beh.vhd|
+Z13 !s107 C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/alu_beh.vhd|
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+Z14 o-93 -work work
+Z15 tExplicit 1 CvgOpt 0
+Abhv
+R2
+R3
+R4
+R5
+R6
+DEx4 work 5 alu_1 0 22 >YjPSGGQZ?I6l>>:n=AK63
+!i122 1
+l96
+L12 90
+VzFnMhQ;`nUMEcB96RI8B?0
+!s100 @E6cDH[`V2RdnZzejCl2M0
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Ecomplementer
+<<<<<<< HEAD
+Z16 w1682793191
+=======
+R1
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+R2
+R3
+R4
+R5
+R6
+!i122 0
+R0
+<<<<<<< HEAD
+Z17 8C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/complement.vhd
+Z18 FC:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/complement.vhd
+=======
+Z16 8C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/complement.vhd
+Z17 FC:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/complement.vhd
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+l0
+L6 1
+Vf`5IUEOG<i7JdF5N<ZNGB0
+!s100 j=[49]e8=`j=g]Xe5ncRX3
+R9
+31
+R10
+!i10b 1
+R11
+<<<<<<< HEAD
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/complement.vhd|
+Z20 !s107 C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/complement.vhd|
+=======
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/complement.vhd|
+Z19 !s107 C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/complement.vhd|
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+R14
+R15
+Abhv
+R2
+R3
+R4
+R5
+R6
+DEx4 work 12 complementer 0 22 f`5IUEOG<i7JdF5N<ZNGB0
+!i122 0
+l28
+L11 20
+VWNG0S[mMfXU4lA2nCZFiI0
+!s100 GfMo:<njMToUV8hK13bHf1
+R9
+31
+R10
+!i10b 1
+R11
+<<<<<<< HEAD
+R19
+R20
+!i113 1
+R14
+R15
+Ecounter
+Z21 w1682878695
+R2
+R5
+R6
+!i122 15
+R0
+Z22 8C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/counter.vhd
+Z23 FC:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/counter.vhd
+l0
+L5 1
+VJg?WlM02b75ZLnW<6HQkh0
+!s100 @Ge2W4Vdk1YEcXBf3bimN0
+R9
+31
+Z24 !s110 1682884902
+!i10b 1
+Z25 !s108 1682884902.000000
+Z26 !s90 -reportprogress|300|-93|-work|work|C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/counter.vhd|
+Z27 !s107 C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/counter.vhd|
+!i113 1
+R14
+R15
+Acounter_beh
+R2
+R5
+R6
+DEx4 work 7 counter 0 22 Jg?WlM02b75ZLnW<6HQkh0
+!i122 15
+l31
+L12 38
+Va8VQ0Z@SC`zn]nhDhJ?In2
+!s100 U`@4nE]GC4NA8`mi7a@M23
+R9
+31
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R14
+R15
+Edata_mem
+Z28 w1682884880
+R2
+R5
+R6
+!i122 13
+R0
+Z29 8C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/Data_Memory.vhd
+Z30 FC:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/Data_Memory.vhd
+l0
+L5 1
+VZde7aFGWjk0VhoBSgC?XL0
+!s100 ciYFg3LaREa[WT6@aQ2nT3
+R9
+31
+Z31 !s110 1682884901
+!i10b 1
+Z32 !s108 1682884901.000000
+Z33 !s90 -reportprogress|300|-93|-work|work|C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/Data_Memory.vhd|
+Z34 !s107 C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/Data_Memory.vhd|
+=======
+R18
+R19
+!i113 1
+R14
+R15
+Edata_mem
+Z20 w1682864390
+R2
+R5
+R6
+!i122 13
+R0
+Z21 8C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Data_Memory.vhd
+Z22 FC:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Data_Memory.vhd
+l0
+L5 1
+VZde7aFGWjk0VhoBSgC?XL0
+!s100 ciYFg3LaREa[WT6@aQ2nT3
+R9
+31
+Z23 !s110 1682864536
+!i10b 1
+Z24 !s108 1682864536.000000
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Data_Memory.vhd|
+Z26 !s107 C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Data_Memory.vhd|
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+R14
+R15
+Abehav1
+R2
+R5
+R6
+DEx4 work 8 data_mem 0 22 Zde7aFGWjk0VhoBSgC?XL0
+!i122 13
+l36
+L15 35
+<<<<<<< HEAD
+VNmVjLCjH4;VjXmF96EhV<2
+!s100 b_m0Tgo1oMA:X02aFS>U=3
+R9
+31
+R31
+!i10b 1
+R32
+R33
+R34
+=======
+ViI`GH0ePKH:AdX[3LXeZE1
+!s100 g4D69XQTW4e0l3IhNZhHC1
+R9
+31
+R23
+!i10b 1
+R24
+R25
+R26
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+R14
+R15
+Edecoder
+<<<<<<< HEAD
+Z35 w1682884333
+=======
+R20
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+R2
+R5
+R6
+!i122 9
+R0
+<<<<<<< HEAD
+Z36 8C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/decoder.vhd
+Z37 FC:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/decoder.vhd
+=======
+Z27 8C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/decoder.vhd
+Z28 FC:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/decoder.vhd
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+l0
+L5 1
+VPH_[40ka0If;80B>L4d8T0
+!s100 WY29k^WN4G`bli<[5=T>:0
+R9
+31
+<<<<<<< HEAD
+R31
+!i10b 1
+R32
+Z38 !s90 -reportprogress|300|-93|-work|work|C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/decoder.vhd|
+Z39 !s107 C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/decoder.vhd|
+=======
+R23
+!i10b 1
+R24
+Z29 !s90 -reportprogress|300|-93|-work|work|C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/decoder.vhd|
+Z30 !s107 C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/decoder.vhd|
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+R14
+R15
+Adec_beh
+R2
+R5
+R6
+DEx4 work 7 decoder 0 22 PH_[40ka0If;80B>L4d8T0
+!i122 9
+l46
+L12 39
+<<<<<<< HEAD
+V:5O:oX_?DJP^i[cmokBd^1
+!s100 ?F6?9bFNEI=ad?z68b]j?2
+R9
+31
+R31
+!i10b 1
+R32
+R38
+R39
+=======
+VLUM8_>OY>W[eOXXdC2glL0
+!s100 ;j4e1P@n1FbSjj@0l7FmB0
+R9
+31
+R23
+!i10b 1
+R24
+R29
+R30
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+R14
+R15
+Edut
+<<<<<<< HEAD
+Z40 w1682776879
+=======
+R20
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+R5
+R6
+!i122 6
+R0
+<<<<<<< HEAD
+Z41 8C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/DUT.vhd
+Z42 FC:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/DUT.vhd
+=======
+Z31 8C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/DUT.vhd
+Z32 FC:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/DUT.vhd
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+l0
+L7 1
+Vi7hd3PFQ;@S@BQ90?z;[<0
+!s100 AOV9B8kfbE7>72hAaX=8P0
+R9
+31
+<<<<<<< HEAD
+R31
+!i10b 1
+R32
+Z43 !s90 -reportprogress|300|-93|-work|work|C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/DUT.vhd|
+Z44 !s107 C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/DUT.vhd|
+=======
+Z33 !s110 1682864535
+!i10b 1
+Z34 !s108 1682864535.000000
+Z35 !s90 -reportprogress|300|-93|-work|work|C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/DUT.vhd|
+Z36 !s107 C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/DUT.vhd|
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+R14
+R15
+Adutwrap
+R5
+R6
+DEx4 work 3 dut 0 22 i7hd3PFQ;@S@BQ90?z;[<0
+!i122 6
+l16
+L12 17
+Vo2Imz5fIMP]CcB@hH5KJW1
+!s100 <PjL3;4<AmXOd]DSQVABg1
+R9
+31
+<<<<<<< HEAD
+R31
+!i10b 1
+R32
+R43
+R44
+=======
+R33
+!i10b 1
+R34
+R35
+R36
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+R14
+R15
+Eflag_register
+<<<<<<< HEAD
+Z45 w1682770061
+=======
+R20
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+R2
+R5
+R6
+!i122 3
+R0
+<<<<<<< HEAD
+Z46 8C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/flag_register.vhd
+Z47 FC:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/flag_register.vhd
+=======
+Z37 8C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/flag_register.vhd
+Z38 FC:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/flag_register.vhd
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+l0
+L5 1
+V=EXMf4zaMY3R8B;44Vo=<0
+!s100 FkKB6QlgD32HN^Cz`cERj1
+R9
+31
+R33
+!i10b 1
+<<<<<<< HEAD
+R11
+Z48 !s90 -reportprogress|300|-93|-work|work|C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/flag_register.vhd|
+Z49 !s107 C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/flag_register.vhd|
+=======
+R34
+Z39 !s90 -reportprogress|300|-93|-work|work|C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/flag_register.vhd|
+Z40 !s107 C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/flag_register.vhd|
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+R14
+R15
+Af_reg_beh
+R2
+R5
+R6
+DEx4 work 13 flag_register 0 22 =EXMf4zaMY3R8B;44Vo=<0
+!i122 3
+l15
+<<<<<<< HEAD
+Z50 L12 15
+=======
+Z41 L12 15
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+VUa@X<cBf`a9<UL[]gnWoj2
+!s100 h6cjVYebh35g861CkmBND2
+R9
+31
+R33
+!i10b 1
+<<<<<<< HEAD
+R11
+R48
+R49
+=======
+R34
+R39
+R40
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+R14
+R15
+Emem
+<<<<<<< HEAD
+Z51 w1682881226
+=======
+R20
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+R2
+R5
+R6
+!i122 5
+R0
+<<<<<<< HEAD
+Z52 8C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/Memory.vhd
+Z53 FC:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/Memory.vhd
+=======
+Z42 8C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Memory.vhd
+Z43 FC:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Memory.vhd
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+l0
+L5 1
+V1[WP:Z6Dz=VKI]dN5XHF81
+!s100 K57W3__;jVl=n49VbYiBI0
+R9
+31
+<<<<<<< HEAD
+R31
+!i10b 1
+R32
+Z54 !s90 -reportprogress|300|-93|-work|work|C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/Memory.vhd|
+Z55 !s107 C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/Memory.vhd|
+=======
+R33
+!i10b 1
+R34
+Z44 !s90 -reportprogress|300|-93|-work|work|C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Memory.vhd|
+Z45 !s107 C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Memory.vhd|
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+R14
+R15
+Abehav
+R2
+R5
+R6
+DEx4 work 3 mem 0 22 1[WP:Z6Dz=VKI]dN5XHF81
+!i122 5
+l36
+L15 34
+<<<<<<< HEAD
+V<lH;HDXhE?=2?UEFg:7T:2
+!s100 O?Z<@;h94oQVQHGLUJOWM1
+R9
+31
+R31
+!i10b 1
+R32
+R54
+R55
+=======
+VOmic1YF7OAYEW?>@KF_K31
+!s100 OWG<H9jVIH4OD]]cB58AU3
+R9
+31
+R33
+!i10b 1
+R34
+R44
+R45
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+R14
+R15
+Emux_2x1
+<<<<<<< HEAD
+Z56 w1682862484
+=======
+R20
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+R2
+R5
+R6
+!i122 11
+R0
+<<<<<<< HEAD
+Z57 8C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/MUX_2x1.vhd
+Z58 FC:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/MUX_2x1.vhd
+=======
+Z46 8C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/MUX_2x1.vhd
+Z47 FC:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/MUX_2x1.vhd
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+l0
+L5 1
+VFzChEQl[@fzeQbC<>:RNT2
+!s100 `kXUl8_CMGLQT2`S>:aIO3
+R9
+31
+<<<<<<< HEAD
+R31
+!i10b 1
+R32
+Z59 !s90 -reportprogress|300|-93|-work|work|C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/MUX_2x1.vhd|
+Z60 !s107 C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/MUX_2x1.vhd|
+=======
+R23
+!i10b 1
+R24
+Z48 !s90 -reportprogress|300|-93|-work|work|C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/MUX_2x1.vhd|
+Z49 !s107 C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/MUX_2x1.vhd|
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+R14
+R15
+Amux_beh
+R2
+R5
+R6
+DEx4 work 7 mux_2x1 0 22 FzChEQl[@fzeQbC<>:RNT2
+!i122 11
+l29
+L12 21
+VERYfG[:69:1GI3:MBVK7h2
+!s100 VY24BacB6lVozLHeBGKNE3
+R9
+31
+<<<<<<< HEAD
+R31
+!i10b 1
+R32
+R59
+R60
+=======
+R23
+!i10b 1
+R24
+R48
+R49
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+R14
+R15
+Emux_4x1
+<<<<<<< HEAD
+Z61 w1682862444
+=======
+R20
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+R2
+R5
+R6
+!i122 12
+R0
+<<<<<<< HEAD
+Z62 8C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/MUX_4x1.vhd
+Z63 FC:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/MUX_4x1.vhd
+=======
+Z50 8C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/MUX_4x1.vhd
+Z51 FC:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/MUX_4x1.vhd
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+l0
+L5 1
+V2CX?6;K]mBCN@SOgS<aLm3
+!s100 ?H810_E7c?:Cz;J:H[XmU3
+R9
+31
+<<<<<<< HEAD
+R31
+!i10b 1
+R32
+Z64 !s90 -reportprogress|300|-93|-work|work|C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/MUX_4x1.vhd|
+Z65 !s107 C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/MUX_4x1.vhd|
+=======
+R23
+!i10b 1
+R24
+Z52 !s90 -reportprogress|300|-93|-work|work|C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/MUX_4x1.vhd|
+Z53 !s107 C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/MUX_4x1.vhd|
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+R14
+R15
+Amux_beh
+R2
+R5
+R6
+DEx4 work 7 mux_4x1 0 22 2CX?6;K]mBCN@SOgS<aLm3
+!i122 12
+l33
+L12 25
+VBRQS`1k?U8XXC<LMBBJe]1
+!s100 ?5BRSdVoVQ08T5V;`j>BQ1
+R9
+31
+<<<<<<< HEAD
+R31
+!i10b 1
+R32
+R64
+R65
+=======
+R23
+!i10b 1
+R24
+R52
+R53
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+R14
+R15
+Epipeline_stages
+<<<<<<< HEAD
+Z66 w1682884075
+=======
+R20
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+R2
+R5
+R6
+!i122 7
+R0
+<<<<<<< HEAD
+Z67 8C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd
+Z68 FC:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd
+=======
+Z54 8C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd
+Z55 FC:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+l0
+L5 1
+V0=Ie<aYWJEUo<anTGHRTV1
+!s100 BSQ2kVT=Mmmj7nD3IJX4<1
+R9
+31
+<<<<<<< HEAD
+R31
+!i10b 1
+R32
+Z69 !s90 -reportprogress|300|-93|-work|work|C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd|
+Z70 !s107 C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd|
+=======
+R33
+!i10b 1
+R34
+Z56 !s90 -reportprogress|300|-93|-work|work|C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd|
+Z57 !s107 C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd|
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+R14
+R15
+Aworkflow
+R2
+R5
+R6
+DEx4 work 15 pipeline_stages 0 22 0=Ie<aYWJEUo<anTGHRTV1
+!i122 7
+<<<<<<< HEAD
+l123
+L9 161
+VnDZOG;Uj_aWmGNhTA@L[H1
+!s100 b8oS3@JJdY9@50``:DKPm3
+R9
+31
+R31
+!i10b 1
+R32
+R69
+R70
+=======
+l115
+L9 148
+VG=MJZbRoBSV?n`Mk8;nV63
+!s100 h:X`>gfdagZlbO]kJWGf93
+R9
+31
+R33
+!i10b 1
+R34
+R56
+R57
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+R14
+R15
+Eregister_file
+<<<<<<< HEAD
+Z71 w1682881896
+=======
+R20
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+R2
+R5
+R6
+!i122 4
+R0
+<<<<<<< HEAD
+Z72 8C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/RF.vhd
+Z73 FC:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/RF.vhd
+=======
+Z58 8C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/RF.vhd
+Z59 FC:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/RF.vhd
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+l0
+L5 1
+VzBGG9czG0J3>iKI0`lJC51
+!s100 <:KEjil9dLQ?FiD?@><am2
+R9
+31
+<<<<<<< HEAD
+R31
+!i10b 1
+R32
+Z74 !s90 -reportprogress|300|-93|-work|work|C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/RF.vhd|
+Z75 !s107 C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/RF.vhd|
+=======
+R33
+!i10b 1
+R34
+Z60 !s90 -reportprogress|300|-93|-work|work|C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/RF.vhd|
+Z61 !s107 C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/RF.vhd|
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+R14
+R15
+Abehav
+R2
+R5
+R6
+DEx4 work 13 register_file 0 22 zBGG9czG0J3>iKI0`lJC51
+!i122 4
+l27
+L20 25
+<<<<<<< HEAD
+VER]3ii[1Ng5hbT`OMIl9j0
+!s100 KZNIlWfJa13S1zUcDCR6@2
+R9
+31
+R31
+!i10b 1
+R32
+R74
+R75
+=======
+V5aT_3<D2AmeF<;G:c^2RZ0
+!s100 TVV?:2H9zY?TXfX;;j]lS2
+R9
+31
+R33
+!i10b 1
+R34
+R60
+R61
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+R14
+R15
+Eregisters
+<<<<<<< HEAD
+Z76 w1682755499
+=======
+R20
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+R2
+R5
+R6
+!i122 8
+R0
+<<<<<<< HEAD
+Z77 8C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/register.vhd
+Z78 FC:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/register.vhd
+=======
+Z62 8C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/register.vhd
+Z63 FC:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/register.vhd
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+l0
+L5 1
+VMd?77oW7DSR;3KQ5F`>@?0
+!s100 KSCOM;HHd9@KiH1zVmi6Y2
+R9
+31
+<<<<<<< HEAD
+R31
+!i10b 1
+R32
+Z79 !s90 -reportprogress|300|-93|-work|work|C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/register.vhd|
+Z80 !s107 C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/register.vhd|
+=======
+R23
+!i10b 1
+R24
+Z64 !s90 -reportprogress|300|-93|-work|work|C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/register.vhd|
+Z65 !s107 C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/register.vhd|
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+R14
+R15
+Areg_beh
+R2
+R5
+R6
+DEx4 work 9 registers 0 22 Md?77oW7DSR;3KQ5F`>@?0
+!i122 8
+l15
+<<<<<<< HEAD
+R50
+=======
+R41
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+VPM1JSZ0Wl27[817eo_T?C1
+!s100 HHe=lm]]PdVDHiCUBKoWk1
+R9
+31
+<<<<<<< HEAD
+R31
+!i10b 1
+R32
+R79
+R80
+=======
+R23
+!i10b 1
+R24
+R64
+R65
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+R14
+R15
+Erf_wr_decoder
+<<<<<<< HEAD
+Z81 w1682883586
+=======
+R20
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+R2
+R5
+R6
+!i122 2
+R0
+<<<<<<< HEAD
+Z82 8C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/rf_wr_decoder.vhd
+Z83 FC:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/rf_wr_decoder.vhd
+=======
+Z66 8C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/rf_wr_decoder.vhd
+Z67 FC:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/rf_wr_decoder.vhd
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+l0
+L5 1
+V>OO6AZe2FlNmTHoc9fI;D0
+!s100 oSiz7Ef9X_WT`WOVPIm=S3
+R9
+31
+R33
+!i10b 1
+<<<<<<< HEAD
+R11
+Z84 !s90 -reportprogress|300|-93|-work|work|C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/rf_wr_decoder.vhd|
+Z85 !s107 C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/rf_wr_decoder.vhd|
+=======
+R34
+Z68 !s90 -reportprogress|300|-93|-work|work|C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/rf_wr_decoder.vhd|
+Z69 !s107 C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/rf_wr_decoder.vhd|
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+R14
+R15
+Arf_wr_dec_beh
+R2
+R5
+R6
+DEx4 work 13 rf_wr_decoder 0 22 >OO6AZe2FlNmTHoc9fI;D0
+!i122 2
+<<<<<<< HEAD
+l29
+L12 20
+VoMcL[1bXBSPcPLl]l89Vc1
+!s100 JcJ3Yd_:Hz>JU<Can1hzg1
+=======
+l13
+L12 4
+V4KHeLDkoe40k=`NnIcl4>0
+!s100 18RePWNj_7>db@:TlFWPb2
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+R9
+31
+R33
+!i10b 1
+<<<<<<< HEAD
+R11
+R84
+R85
+=======
+R34
+R68
+R69
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+R14
+R15
+Erf_wr_register
+<<<<<<< HEAD
+Z86 w1682805554
+=======
+Z70 w1682864391
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+R2
+R5
+R6
+!i122 10
+R0
+<<<<<<< HEAD
+Z87 8C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/rf_wr_reg.vhd
+Z88 FC:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/rf_wr_reg.vhd
+=======
+Z71 8C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/rf_wr_reg.vhd
+Z72 FC:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/rf_wr_reg.vhd
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+l0
+L5 1
+VHhUmTko8]MRfDoK7LhEeL0
+!s100 O;maa66mBo]3:]Rd45^LQ2
+R9
+31
+<<<<<<< HEAD
+R31
+!i10b 1
+R32
+Z89 !s90 -reportprogress|300|-93|-work|work|C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/rf_wr_reg.vhd|
+Z90 !s107 C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/rf_wr_reg.vhd|
+=======
+R23
+!i10b 1
+R24
+Z73 !s90 -reportprogress|300|-93|-work|work|C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/rf_wr_reg.vhd|
+Z74 !s107 C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/rf_wr_reg.vhd|
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+R14
+R15
+Arf_wr_reg_beh
+R2
+R5
+R6
+DEx4 work 14 rf_wr_register 0 22 HhUmTko8]MRfDoK7LhEeL0
+!i122 10
+l15
+<<<<<<< HEAD
+R50
+=======
+R41
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+VFezolMLb=3BejO@Q8U>e33
+!s100 `51N^mna7Dn5fDof2jmTb2
+R9
+31
+<<<<<<< HEAD
+R31
+!i10b 1
+R32
+R89
+R90
+=======
+R23
+!i10b 1
+R24
+R73
+R74
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+R14
+R15
+Ese6
+<<<<<<< HEAD
+Z91 w1682854241
+=======
+R70
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+R2
+R5
+R6
+!i122 14
+R0
+<<<<<<< HEAD
+Z92 8C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/SE6.vhd
+Z93 FC:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/SE6.vhd
+=======
+Z75 8C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/SE6.vhd
+Z76 FC:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/SE6.vhd
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+l0
+L5 1
+VbASbNiH<LG<>WN?UNTXTZ2
+!s100 5UU]72fo8E1zXENiGb9lR1
+R9
+31
+<<<<<<< HEAD
+R24
+!i10b 1
+R32
+Z94 !s90 -reportprogress|300|-93|-work|work|C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/SE6.vhd|
+Z95 !s107 C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/SE6.vhd|
+=======
+Z77 !s110 1682864537
+!i10b 1
+R24
+Z78 !s90 -reportprogress|300|-93|-work|work|C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/SE6.vhd|
+Z79 !s107 C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/SE6.vhd|
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+R14
+R15
+Abhv
+R2
+R5
+R6
+DEx4 work 3 se6 0 22 bASbNiH<LG<>WN?UNTXTZ2
+!i122 14
+l10
+L9 4
+Vo3iQ93Wc4I7A8VYlAM4mo3
+!s100 GgX>JBGC1EV4k<4lnRdSh1
+R9
+31
+<<<<<<< HEAD
+R24
+!i10b 1
+R32
+R94
+R95
+=======
+R77
+!i10b 1
+R24
+R78
+R79
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+R14
+R15
+Etestbench
+<<<<<<< HEAD
+Z96 w1682776858
+R6
+R5
+!i122 16
+R0
+Z97 8C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/Testbench.vhd
+Z98 FC:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/Testbench.vhd
+=======
+R70
+R6
+R5
+!i122 15
+R0
+Z80 8C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Testbench.vhd
+Z81 FC:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Testbench.vhd
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+l0
+L7 1
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R9
+31
+<<<<<<< HEAD
+R24
+!i10b 1
+R25
+Z99 !s90 -reportprogress|300|-93|-work|work|C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/Testbench.vhd|
+!s107 C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/Testbench.vhd|
+=======
+R77
+!i10b 1
+Z82 !s108 1682864537.000000
+Z83 !s90 -reportprogress|300|-93|-work|work|C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Testbench.vhd|
+!s107 C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Testbench.vhd|
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+R14
+R15
+Abehave
+R6
+R5
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+<<<<<<< HEAD
+!i122 16
+=======
+!i122 15
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+l69
+L9 132
+V?feo`:e48O?9d[fa4fOX=2
+!s100 _8O^=eA=JndnJzM=m2^YM2
+R9
+31
+<<<<<<< HEAD
+R24
+!i10b 1
+R25
+R99
+Z100 !s107 C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/Testbench.vhd|
+=======
+R77
+!i10b 1
+R82
+R83
+Z84 !s107 C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Testbench.vhd|
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+!i113 1
+R14
+R15

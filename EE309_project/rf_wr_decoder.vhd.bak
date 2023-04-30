@@ -1,0 +1,14 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity rf_wr_decoder is
+	port ( dec_in: in std_logic_vector(17 downto 0);
+	       dec_out: out std_logic
+		  );
+end entity;
+
+architecture rf_wr_dec_beh of inst_decoder is
+   begin
+	dec_out <= (dec_in(17) or not(dec_in(1))) and (dec_in(16) or not(dec_in(0)));
+end rf_wr_dec_beh;

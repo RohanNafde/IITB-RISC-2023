@@ -1,0 +1,86 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity pipeline_stages is
+	port(clk, reset : in std_logic; );
+end entity;
+
+architecture workflow of pipleine_stages is
+	signal pl_reg1 : std_logic_vector(15 downto 0);
+	signal pl_reg2 : std_logic_vector(11 downto 0);
+	signal pl_reg31 : std_logic_vector(15 downto 0);
+	signal pl_reg32 : std_logic_vector(15 downto 0);
+	
+	component mem is
+		port( mem_a1: in std_logic_vector(15 downto 0);
+				mem_a0: in std_logic_vector(15 downto 0);
+				mem_wr : in std_logic;
+				mem_d1: in std_logic_vector(15 downto 0);
+				mem_d0: out std_logic_vector(15 downto 0);
+				clk : in std_logic
+		);
+	end component; 
+	
+	component register_file is 
+		port (reg_a1: in std_logic_vector(2 downto 0);
+				reg_a2: in std_logic_vector(2 downto 0);
+				reg_a3: in std_logic_vector(2 downto 0);
+				rf_wr: in std_logic;
+				reg_d1: out std_logic_vector(15 downto 0);
+				reg_d2: out std_logic_vector(15 downto 0);
+				reg_d3: in std_logic_vector(15 downto 0);
+				clk: in std_logic
+		);
+	end component;
+	
+	component  alu is
+		port(A: in std_logic_vector(15 downto 0);
+			  B: in std_logic_vector(15 downto 0);
+			  C: out std_logic_vector(15 downto 0);
+			  control_lines: in std_logic_vector(1 downto 0);
+			  carry_out: out std_logic;
+			  zero_out: out std_logic);
+	end component;
+
+	
+	begin
+	
+		instruction_fetch: process(clk)
+		begin
+			if(rising_edge(clk) and pl_reg1_wr) then
+				ir <= mem_d0;
+				pl_reg1 <= mem_d0;
+			else 
+				null;
+			end if;
+		end process;
+		
+		instruction_decode: process(clk)
+		begin
+			if(rising_edge(clk) and pl_reg2_wr) then
+				pl_reg2 <=  pl_reg1(11 downto 0);
+			else
+				null;
+			end if;
+		end process;
+		
+		register_read: process(clk)
+		begin
+			if(rising_edge(clk) and (pl_reg31_wr or pl_reg32_wr)) then
+				pl_reg31 <= reg_d1;
+				pl_reg32 <= red_d2;
+			else
+				null;
+			end if;
+		end process;
+		
+		execute: process(clk)
+		begin
+			if(rising_edge(clk)) then
+				pl_reg4 <= C;
+			else
+				null;
+			end if;
+		end process;
+end workflow;

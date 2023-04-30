@@ -1,0 +1,32 @@
+<<<<<<< HEAD
+Fitter Status : Successful - Mon May 01 01:25:17 2023
+=======
+Fitter Status : Successful - Sun Apr 30 19:29:39 2023
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : IITB_RISC_2023
+Top-level Entity Name : DUT
+Family : MAX 10
+Device : 10M25SAE144C8G
+Timing Models : Final
+<<<<<<< HEAD
+Total logic elements : 516 / 24,960 ( 2 % )
+    Total combinational functions : 482 / 24,960 ( 2 % )
+    Dedicated logic registers : 311 / 24,960 ( 1 % )
+Total registers : 311
+Total pins : 20 / 101 ( 20 % )
+Total virtual pins : 0
+Total memory bits : 0 / 691,200 ( 0 % )
+=======
+Total logic elements : 333 / 24,960 ( 1 % )
+    Total combinational functions : 327 / 24,960 ( 1 % )
+    Dedicated logic registers : 230 / 24,960 ( < 1 % )
+Total registers : 230
+Total pins : 20 / 101 ( 20 % )
+Total virtual pins : 0
+Total memory bits : 39 / 691,200 ( < 1 % )
+>>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+Embedded Multiplier 9-bit elements : 0 / 110 ( 0 % )
+Total PLLs : 0 / 1 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 1 ( 0 % )

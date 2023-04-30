@@ -1,0 +1,15 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Users/anway/OneDrive/Desktop/EE309_project/RF.vhd}
+vcom -93 -work work {C:/Users/anway/OneDrive/Desktop/EE309_project/Memory.vhd}
+vcom -93 -work work {C:/Users/anway/OneDrive/Desktop/EE309_project/DUT.vhd}
+vcom -93 -work work {C:/Users/anway/OneDrive/Desktop/EE309_project/ALU.vhd}
+vcom -93 -work work {C:/Users/anway/OneDrive/Desktop/EE309_project/IITB_RISC_2023.vhd}
+vcom -93 -work work {C:/Users/anway/OneDrive/Desktop/EE309_project/register.vhd}
+vcom -93 -work work {C:/Users/anway/OneDrive/Desktop/EE309_project/decoder.vhd}
+

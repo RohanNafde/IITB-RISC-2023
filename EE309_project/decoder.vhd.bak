@@ -1,0 +1,13 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity decoder is
+	port ( dec_in: in std_logic_vector(15 downto 0);
+	       dec_out: out std_logic_vector(15 downto 0);
+		  );
+end entity;
+
+architecture dec_beh of decoder is
+	dec_out <= dec_in;
+end dec_beh;
