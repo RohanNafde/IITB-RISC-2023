@@ -11,11 +11,7 @@ architecture workflow of pipeline_stages is
 	signal s0,s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13,s14,s15,s16,s19,s24,s25,s26,s27,s28,s29,s30,s31,s32,s33,s35: std_logic_vector(15 downto 0);
 	signal s17,s18,s20: std_logic_vector(1 downto 0);
 	signal s34: std_logic_vector(2 downto 0);
-<<<<<<< HEAD
 	signal s21, s22, s23, s36, s37: std_logic;
-=======
-	signal s21, s22, s23: std_logic;
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
 	
 	component registers is
 		port( reg_wr: in std_logic_vector(15 downto 0);
@@ -116,7 +112,6 @@ architecture workflow of pipeline_stages is
 		port (inp: in std_logic_vector(5 downto 0); opt: out std_logic_vector(15 downto 0));
 	end component;
 	
-<<<<<<< HEAD
 	component counter is
 		port(clk, rst: in std_logic;
 			  n: in integer;
@@ -138,19 +133,6 @@ architecture workflow of pipeline_stages is
 		alu2: alu_1 port map (A => s24, B => s27, C => s12, control_signal => s31(15 downto 14), C_in => s18(1), Z_in => s18(0),
 	   C_flag => s17(1), Z_flag => s17(0));
 		cmplmt: complementer port map (B => s10, B_com => s19, control_signal => s31(13));
-=======
-	begin
-		rf: register_file port map (reg_a1 => s6(11 downto 9), reg_a2 => s6(8 downto 6), reg_a3 => s34, reg_d1 => s7, reg_d2 => s8,
-		                            reg_d3 => s15, rf_wr => s21, pc_in => s1, pc_out => s0, pc_wr_en => '1', clk => clk);
-		alu1: alu_1 port map (A => s0, B => "0000000000000001", C => s1, control_signal => "00",C_in => '0', Z_in => '0');
-		m1: mux_2x1 port map (in_1 => s9, in_2 => s10, cs => s31(3), outp => s24);
-		--s26 <= resize(s11(5 downto 0), s26'length);
-		m2: mux_2x1 port map (in_1 => s19, in_2 => s26, cs => s31(4), outp => s27);
-		se6_1: SE6 port map (inp => s11(5 downto 0), opt => s26);
-		alu2: alu_1 port map (A => s24, B => s27, C => s12, control_signal => s11(15 downto 14), C_in => s18(1), Z_in => s18(0),
-	   C_flag => s17(1), Z_flag => s17(0));
-		cmplmt: complementer port map (B => s10, B_com => s19, control_signal => s11(13));
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
 		dec_1: decoder port map (dec_in => s4, dec_out => s5, dec_to_cr => s29);
 		inst_mem: mem port map (mem_a0 => s0, mem_d0 => s3, mem_wr =>'0', clk => clk, mem_a1 => s2, mem_d1 => s3);
 		counter_rf: counter port map (clk => clk, rst => '0', n => 4, cont => s37);
@@ -178,14 +160,10 @@ architecture workflow of pipeline_stages is
 		pl_reg54: registers port map (reg_wr => s32, reg_rd => s33, reg_wr_en => '1', clk => clk);
 		rf_wr_dec: rf_wr_decoder port map (in1 => s11, in2 => s18, dec_out => s22);
 		
-<<<<<<< HEAD
 		Y(17 downto 2) <= s27;
 		Y(1) <= s31(4);
 		Y(0) <= s37;
-=======
-		Y(17 downto 2) <= s7;
-		Y(1 downto 0) <= "00";
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+
 		--Y(16) <= s33(6);
 
 		

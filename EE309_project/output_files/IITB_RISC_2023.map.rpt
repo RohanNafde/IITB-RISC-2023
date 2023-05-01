@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-Analysis & Elaboration report for IITB_RISC_2023
-Mon May 01 01:31:27 2023
-=======
 Analysis & Synthesis report for IITB_RISC_2023
-Sun Apr 30 19:51:54 2023
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+Mon May 01 05:24:16 2023
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -12,32 +7,6 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 ; Table of Contents ;
 ---------------------
   1. Legal Notice
-<<<<<<< HEAD
-  2. Analysis & Elaboration Summary
-  3. Parallel Compilation
-  4. Analysis & Elaboration Settings
-  5. Port Connectivity Checks: "pipeline_stages:add_instance|registers:pl_reg54"
-  6. Port Connectivity Checks: "pipeline_stages:add_instance|registers:pl_reg52"
-  7. Port Connectivity Checks: "pipeline_stages:add_instance|mux_4x1:m4"
-  8. Port Connectivity Checks: "pipeline_stages:add_instance|registers:pl_reg51"
-  9. Port Connectivity Checks: "pipeline_stages:add_instance|registers:pl_reg46"
- 10. Port Connectivity Checks: "pipeline_stages:add_instance|registers:pl_reg45"
- 11. Port Connectivity Checks: "pipeline_stages:add_instance|flag_register:pl_reg43"
- 12. Port Connectivity Checks: "pipeline_stages:add_instance|registers:pl_reg42"
- 13. Port Connectivity Checks: "pipeline_stages:add_instance|registers:pl_reg41"
- 14. Port Connectivity Checks: "pipeline_stages:add_instance|registers:pl_reg34"
- 15. Port Connectivity Checks: "pipeline_stages:add_instance|registers:pl_reg33"
- 16. Port Connectivity Checks: "pipeline_stages:add_instance|registers:pl_reg32"
- 17. Port Connectivity Checks: "pipeline_stages:add_instance|registers:pl_reg31"
- 18. Port Connectivity Checks: "pipeline_stages:add_instance|registers:pl_reg22"
- 19. Port Connectivity Checks: "pipeline_stages:add_instance|registers:pl_reg21"
- 20. Port Connectivity Checks: "pipeline_stages:add_instance|registers:pl_reg1"
- 21. Port Connectivity Checks: "pipeline_stages:add_instance|counter:counter_rf"
- 22. Port Connectivity Checks: "pipeline_stages:add_instance|mem:inst_mem"
- 23. Port Connectivity Checks: "pipeline_stages:add_instance|alu_1:alu1"
- 24. Port Connectivity Checks: "pipeline_stages:add_instance|register_file:rf"
- 25. Analysis & Elaboration Messages
-=======
   2. Analysis & Synthesis Summary
   3. Analysis & Synthesis Settings
   4. Parallel Compilation
@@ -51,8 +20,8 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
  12. Inverted Register Statistics
  13. Registers Packed Into Inferred Megafunctions
  14. Multiplexer Restructuring Statistics (Restructuring Performed)
- 15. Source assignments for pipeline_stages:add_instance|registers:pl_reg33|altshift_taps:reg_data_rtl_0|shift_taps_vgl:auto_generated|altsyncram_jv21:altsyncram4
- 16. Parameter Settings for Inferred Entity Instance: pipeline_stages:add_instance|registers:pl_reg33|altshift_taps:reg_data_rtl_0
+ 15. Source assignments for pipeline_stages:add_instance|registers:pl_reg1|altshift_taps:reg_data_rtl_0|shift_taps_tgl:auto_generated|altsyncram_fv21:altsyncram4
+ 16. Parameter Settings for Inferred Entity Instance: pipeline_stages:add_instance|registers:pl_reg1|altshift_taps:reg_data_rtl_0
  17. altshift_taps Parameter Settings by Entity Instance
  18. Port Connectivity Checks: "pipeline_stages:add_instance|registers:pl_reg54"
  19. Port Connectivity Checks: "pipeline_stages:add_instance|registers:pl_reg52"
@@ -70,13 +39,13 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
  31. Port Connectivity Checks: "pipeline_stages:add_instance|registers:pl_reg22"
  32. Port Connectivity Checks: "pipeline_stages:add_instance|registers:pl_reg21"
  33. Port Connectivity Checks: "pipeline_stages:add_instance|registers:pl_reg1"
- 34. Port Connectivity Checks: "pipeline_stages:add_instance|mem:inst_mem"
- 35. Port Connectivity Checks: "pipeline_stages:add_instance|alu_1:alu1"
- 36. Port Connectivity Checks: "pipeline_stages:add_instance|register_file:rf"
- 37. Post-Synthesis Netlist Statistics for Top Partition
- 38. Elapsed Time Per Partition
- 39. Analysis & Synthesis Messages
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+ 34. Port Connectivity Checks: "pipeline_stages:add_instance|counter:counter_rf"
+ 35. Port Connectivity Checks: "pipeline_stages:add_instance|mem:inst_mem"
+ 36. Port Connectivity Checks: "pipeline_stages:add_instance|alu_1:alu1"
+ 37. Port Connectivity Checks: "pipeline_stages:add_instance|register_file:rf"
+ 38. Post-Synthesis Netlist Statistics for Top Partition
+ 39. Elapsed Time Per Partition
+ 40. Analysis & Synthesis Messages
 
 
 
@@ -101,63 +70,29 @@ https://fpgasoftware.intel.com/eula.
 
 
 +----------------------------------------------------------------------------------+
-; Analysis & Elaboration Summary                                                   ;
+; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-<<<<<<< HEAD
-; Analysis & Elaboration Status      ; Successful - Mon May 01 01:31:27 2023       ;
-=======
-; Analysis & Synthesis Status        ; Successful - Sun Apr 30 19:51:54 2023       ;
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+; Analysis & Synthesis Status        ; Successful - Mon May 01 05:24:16 2023       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; IITB_RISC_2023                              ;
 ; Top-level Entity Name              ; DUT                                         ;
 ; Family                             ; MAX 10                                      ;
-<<<<<<< HEAD
-; Total logic elements               ; N/A until Partition Merge                   ;
-;     Total combinational functions  ; N/A until Partition Merge                   ;
-;     Dedicated logic registers      ; N/A until Partition Merge                   ;
-; Total registers                    ; N/A until Partition Merge                   ;
-; Total pins                         ; N/A until Partition Merge                   ;
-; Total virtual pins                 ; N/A until Partition Merge                   ;
-; Total memory bits                  ; N/A until Partition Merge                   ;
-; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                   ;
-; Total PLLs                         ; N/A until Partition Merge                   ;
-; UFM blocks                         ; N/A until Partition Merge                   ;
-; ADC blocks                         ; N/A until Partition Merge                   ;
-=======
-; Total logic elements               ; 416                                         ;
-;     Total combinational functions  ; 326                                         ;
-;     Dedicated logic registers      ; 230                                         ;
-; Total registers                    ; 230                                         ;
+; Total logic elements               ; 2,374                                       ;
+;     Total combinational functions  ; 1,234                                       ;
+;     Dedicated logic registers      ; 1,325                                       ;
+; Total registers                    ; 1325                                        ;
 ; Total pins                         ; 20                                          ;
 ; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 39                                          ;
+; Total memory bits                  ; 33                                          ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
 ; Total PLLs                         ; 0                                           ;
 ; UFM blocks                         ; 0                                           ;
 ; ADC blocks                         ; 0                                           ;
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
 +------------------------------------+---------------------------------------------+
 
 
-+------------------------------------------+
-; Parallel Compilation                     ;
-+----------------------------+-------------+
-; Processors                 ; Number      ;
-+----------------------------+-------------+
-; Number detected on machine ; 8           ;
-; Maximum allowed            ; 4           ;
-;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
-;                            ;             ;
-; Usage by Processor         ; % Time Used ;
-;     Processor 1            ; 100.0%      ;
-+----------------------------+-------------+
-
-
 +------------------------------------------------------------------------------------------------------------+
-; Analysis & Elaboration Settings                                                                            ;
+; Analysis & Synthesis Settings                                                                              ;
 +------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                           ; Setting            ; Default Value      ;
 +------------------------------------------------------------------+--------------------+--------------------+
@@ -242,79 +177,57 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------------------------------------+--------------------+--------------------+
 
 
-<<<<<<< HEAD
-+-------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "pipeline_stages:add_instance|registers:pl_reg54"                                             ;
-+---------------+--------+----------+-------------------------------------------------------------------------------------+
-; Port          ; Type   ; Severity ; Details                                                                             ;
-+---------------+--------+----------+-------------------------------------------------------------------------------------+
-; reg_wr_en     ; Input  ; Info     ; Stuck at VCC                                                                        ;
-; reg_rd[15..8] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; reg_rd[5..0]  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+---------------+--------+----------+-------------------------------------------------------------------------------------+
-
-
-+--------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "pipeline_stages:add_instance|registers:pl_reg52"                                              ;
-+----------------+--------+----------+-------------------------------------------------------------------------------------+
-; Port           ; Type   ; Severity ; Details                                                                             ;
-+----------------+--------+----------+-------------------------------------------------------------------------------------+
-; reg_wr_en      ; Input  ; Info     ; Stuck at VCC                                                                        ;
-; reg_rd[15..12] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; reg_rd[2..0]   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+----------------+--------+----------+-------------------------------------------------------------------------------------+
-
-
-+---------------------------------------------------------------------+
-=======
 +------------------------------------------+
 ; Parallel Compilation                     ;
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 16          ;
-; Maximum allowed            ; 16          ;
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 16          ;
+; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-16        ;   0.0%      ;
+;     Processor 2            ;   0.1%      ;
+;     Processor 3            ;   0.1%      ;
+;     Processor 4            ;   0.1%      ;
 +----------------------------+-------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                            ;
-+----------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                        ; Library ;
-+----------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------------+---------+
-; complement.vhd                   ; yes             ; User VHDL File               ; C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/complement.vhd         ;         ;
-; alu_beh.vhd                      ; yes             ; User VHDL File               ; C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/alu_beh.vhd            ;         ;
-; rf_wr_decoder.vhd                ; yes             ; User VHDL File               ; C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/rf_wr_decoder.vhd      ;         ;
-; flag_register.vhd                ; yes             ; User VHDL File               ; C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/flag_register.vhd      ;         ;
-; RF.vhd                           ; yes             ; User VHDL File               ; C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/RF.vhd                 ;         ;
-; Memory.vhd                       ; yes             ; User VHDL File               ; C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Memory.vhd             ;         ;
-; DUT.vhd                          ; yes             ; User VHDL File               ; C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/DUT.vhd                ;         ;
-; IITB_RISC_2023.vhd               ; yes             ; User VHDL File               ; C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd     ;         ;
-; register.vhd                     ; yes             ; User VHDL File               ; C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/register.vhd           ;         ;
-; decoder.vhd                      ; yes             ; User VHDL File               ; C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/decoder.vhd            ;         ;
-; rf_wr_reg.vhd                    ; yes             ; User VHDL File               ; C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/rf_wr_reg.vhd          ;         ;
-; MUX_2x1.vhd                      ; yes             ; User VHDL File               ; C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/MUX_2x1.vhd            ;         ;
-; MUX_4x1.vhd                      ; yes             ; User VHDL File               ; C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/MUX_4x1.vhd            ;         ;
-; Data_Memory.vhd                  ; yes             ; User VHDL File               ; C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Data_Memory.vhd        ;         ;
-; SE6.vhd                          ; yes             ; User VHDL File               ; C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/SE6.vhd                ;         ;
-; altshift_taps.tdf                ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altshift_taps.tdf            ;         ;
-; altdpram.inc                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altdpram.inc                 ;         ;
-; lpm_counter.inc                  ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_counter.inc              ;         ;
-; lpm_compare.inc                  ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_compare.inc              ;         ;
-; lpm_constant.inc                 ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_constant.inc             ;         ;
-; db/shift_taps_vgl.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/db/shift_taps_vgl.tdf  ;         ;
-; db/altsyncram_jv21.tdf           ; yes             ; Auto-Generated Megafunction  ; C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/db/altsyncram_jv21.tdf ;         ;
-; db/add_sub_oed.tdf               ; yes             ; Auto-Generated Megafunction  ; C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/db/add_sub_oed.tdf     ;         ;
-; db/cntr_s3f.tdf                  ; yes             ; Auto-Generated Megafunction  ; C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/db/cntr_s3f.tdf        ;         ;
-; db/cmpr_erb.tdf                  ; yes             ; Auto-Generated Megafunction  ; C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/db/cmpr_erb.tdf        ;         ;
-+----------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                     ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                 ; Library ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------------------------+---------+
+; complement.vhd                   ; yes             ; User VHDL File               ; C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/complement.vhd         ;         ;
+; alu_beh.vhd                      ; yes             ; User VHDL File               ; C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/alu_beh.vhd            ;         ;
+; rf_wr_decoder.vhd                ; yes             ; User VHDL File               ; C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/rf_wr_decoder.vhd      ;         ;
+; flag_register.vhd                ; yes             ; User VHDL File               ; C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/flag_register.vhd      ;         ;
+; RF.vhd                           ; yes             ; User VHDL File               ; C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/RF.vhd                 ;         ;
+; Memory.vhd                       ; yes             ; User VHDL File               ; C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/Memory.vhd             ;         ;
+; DUT.vhd                          ; yes             ; User VHDL File               ; C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/DUT.vhd                ;         ;
+; IITB_RISC_2023.vhd               ; yes             ; User VHDL File               ; C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd     ;         ;
+; register.vhd                     ; yes             ; User VHDL File               ; C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/register.vhd           ;         ;
+; decoder.vhd                      ; yes             ; User VHDL File               ; C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/decoder.vhd            ;         ;
+; rf_wr_reg.vhd                    ; yes             ; User VHDL File               ; C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/rf_wr_reg.vhd          ;         ;
+; MUX_2x1.vhd                      ; yes             ; User VHDL File               ; C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/MUX_2x1.vhd            ;         ;
+; MUX_4x1.vhd                      ; yes             ; User VHDL File               ; C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/MUX_4x1.vhd            ;         ;
+; Data_Memory.vhd                  ; yes             ; User VHDL File               ; C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/Data_Memory.vhd        ;         ;
+; SE6.vhd                          ; yes             ; User VHDL File               ; C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/SE6.vhd                ;         ;
+; counter.vhd                      ; yes             ; User VHDL File               ; C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/counter.vhd            ;         ;
+; altshift_taps.tdf                ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altshift_taps.tdf                     ;         ;
+; altdpram.inc                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altdpram.inc                          ;         ;
+; lpm_counter.inc                  ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_counter.inc                       ;         ;
+; lpm_compare.inc                  ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_compare.inc                       ;         ;
+; lpm_constant.inc                 ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_constant.inc                      ;         ;
+; db/shift_taps_tgl.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/db/shift_taps_tgl.tdf  ;         ;
+; db/altsyncram_fv21.tdf           ; yes             ; Auto-Generated Megafunction  ; C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/db/altsyncram_fv21.tdf ;         ;
+; db/add_sub_oed.tdf               ; yes             ; Auto-Generated Megafunction  ; C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/db/add_sub_oed.tdf     ;         ;
+; db/cntr_s3f.tdf                  ; yes             ; Auto-Generated Megafunction  ; C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/db/cntr_s3f.tdf        ;         ;
+; db/cmpr_erb.tdf                  ; yes             ; Auto-Generated Megafunction  ; C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/db/cmpr_erb.tdf        ;         ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------------------+
@@ -322,98 +235,97 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-----------------------+
 ; Resource                                    ; Usage                 ;
 +---------------------------------------------+-----------------------+
-; Estimated Total logic elements              ; 416                   ;
+; Estimated Total logic elements              ; 2,374                 ;
 ;                                             ;                       ;
-; Total combinational functions               ; 326                   ;
+; Total combinational functions               ; 1234                  ;
 ; Logic element usage by number of LUT inputs ;                       ;
-;     -- 4 input functions                    ; 161                   ;
-;     -- 3 input functions                    ; 80                    ;
-;     -- <=2 input functions                  ; 85                    ;
+;     -- 4 input functions                    ; 974                   ;
+;     -- 3 input functions                    ; 134                   ;
+;     -- <=2 input functions                  ; 126                   ;
 ;                                             ;                       ;
 ; Logic elements by mode                      ;                       ;
-;     -- normal mode                          ; 293                   ;
-;     -- arithmetic mode                      ; 33                    ;
+;     -- normal mode                          ; 1139                  ;
+;     -- arithmetic mode                      ; 95                    ;
 ;                                             ;                       ;
-; Total registers                             ; 230                   ;
-;     -- Dedicated logic registers            ; 230                   ;
+; Total registers                             ; 1325                  ;
+;     -- Dedicated logic registers            ; 1325                  ;
 ;     -- I/O registers                        ; 0                     ;
 ;                                             ;                       ;
 ; I/O pins                                    ; 20                    ;
-; Total memory bits                           ; 39                    ;
+; Total memory bits                           ; 33                    ;
 ;                                             ;                       ;
 ; Embedded Multiplier 9-bit elements          ; 0                     ;
 ;                                             ;                       ;
 ; Maximum fan-out node                        ; input_vector[1]~input ;
-; Maximum fan-out                             ; 243                   ;
-; Total fan-out                               ; 1689                  ;
-; Average fan-out                             ; 2.77                  ;
+; Maximum fan-out                             ; 1336                  ;
+; Total fan-out                               ; 8490                  ;
+; Average fan-out                             ; 3.25                  ;
 +---------------------------------------------+-----------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                                                                              ;
-+----------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------------------------------------------------------------------------------------------------------------------------------+-----------------+--------------+
-; Compilation Hierarchy Node                   ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                                                                                                                         ; Entity Name     ; Library Name ;
-+----------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------------------------------------------------------------------------------------------------------------------------------+-----------------+--------------+
-; |DUT                                         ; 326 (0)             ; 230 (0)                   ; 39          ; 0          ; 0            ; 0       ; 0         ; 20   ; 0            ; 0          ; |DUT                                                                                                                                        ; DUT             ; work         ;
-;    |pipeline_stages:add_instance|            ; 326 (0)             ; 230 (0)                   ; 39          ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance                                                                                                           ; pipeline_stages ; work         ;
-;       |alu_1:alu2|                           ; 22 (22)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|alu_1:alu2                                                                                                ; alu_1           ; work         ;
-;       |decoder:dec_1|                        ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|decoder:dec_1                                                                                             ; decoder         ; work         ;
-;       |flag_register:pl_reg43|               ; 0 (0)               ; 2 (2)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|flag_register:pl_reg43                                                                                    ; flag_register   ; work         ;
-;       |mem:inst_mem|                         ; 28 (28)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|mem:inst_mem                                                                                              ; mem             ; work         ;
-;       |mux_2x1:m2|                           ; 16 (16)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|mux_2x1:m2                                                                                                ; mux_2x1         ; work         ;
-;       |mux_2x1:m3|                           ; 16 (16)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|mux_2x1:m3                                                                                                ; mux_2x1         ; work         ;
-;       |mux_4x1:m4|                           ; 5 (5)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|mux_4x1:m4                                                                                                ; mux_4x1         ; work         ;
-;       |register_file:rf|                     ; 229 (229)           ; 128 (128)                 ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|register_file:rf                                                                                          ; register_file   ; work         ;
-;       |registers:pl_reg1|                    ; 0 (0)               ; 8 (8)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg1                                                                                         ; registers       ; work         ;
-;       |registers:pl_reg21|                   ; 0 (0)               ; 7 (7)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg21                                                                                        ; registers       ; work         ;
-;       |registers:pl_reg22|                   ; 0 (0)               ; 2 (2)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg22                                                                                        ; registers       ; work         ;
-;       |registers:pl_reg31|                   ; 0 (0)               ; 16 (16)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg31                                                                                        ; registers       ; work         ;
-;       |registers:pl_reg32|                   ; 0 (0)               ; 16 (16)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg32                                                                                        ; registers       ; work         ;
-;       |registers:pl_reg33|                   ; 7 (0)               ; 5 (1)                     ; 39          ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg33                                                                                        ; registers       ; work         ;
-;          |altshift_taps:reg_data_rtl_0|      ; 7 (0)               ; 4 (0)                     ; 39          ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg33|altshift_taps:reg_data_rtl_0                                                           ; altshift_taps   ; work         ;
-;             |shift_taps_vgl:auto_generated|  ; 7 (2)               ; 4 (2)                     ; 39          ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg33|altshift_taps:reg_data_rtl_0|shift_taps_vgl:auto_generated                             ; shift_taps_vgl  ; work         ;
-;                |altsyncram_jv21:altsyncram4| ; 0 (0)               ; 0 (0)                     ; 39          ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg33|altshift_taps:reg_data_rtl_0|shift_taps_vgl:auto_generated|altsyncram_jv21:altsyncram4 ; altsyncram_jv21 ; work         ;
-;                |cntr_s3f:cntr1|              ; 5 (5)               ; 2 (2)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg33|altshift_taps:reg_data_rtl_0|shift_taps_vgl:auto_generated|cntr_s3f:cntr1              ; cntr_s3f        ; work         ;
-;       |registers:pl_reg34|                   ; 0 (0)               ; 2 (2)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg34                                                                                        ; registers       ; work         ;
-;       |registers:pl_reg41|                   ; 0 (0)               ; 16 (16)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg41                                                                                        ; registers       ; work         ;
-;       |registers:pl_reg42|                   ; 0 (0)               ; 3 (3)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg42                                                                                        ; registers       ; work         ;
-;       |registers:pl_reg45|                   ; 0 (0)               ; 2 (2)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg45                                                                                        ; registers       ; work         ;
-;       |registers:pl_reg51|                   ; 0 (0)               ; 16 (16)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg51                                                                                        ; registers       ; work         ;
-;       |registers:pl_reg52|                   ; 0 (0)               ; 3 (3)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg52                                                                                        ; registers       ; work         ;
-;       |registers:pl_reg54|                   ; 0 (0)               ; 2 (2)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg54                                                                                        ; registers       ; work         ;
-;       |rf_wr_decoder:rf_wr_dec|              ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|rf_wr_decoder:rf_wr_dec                                                                                   ; rf_wr_decoder   ; work         ;
-;       |rf_wr_register:pl_reg44|              ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|rf_wr_register:pl_reg44                                                                                   ; rf_wr_register  ; work         ;
-;       |rf_wr_register:pl_reg53|              ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|rf_wr_register:pl_reg53                                                                                   ; rf_wr_register  ; work         ;
-+----------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------------------------------------------------------------------------------------------------------------------------------+-----------------+--------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                                                                             ;
++----------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+--------------------------------------------------------------------------------------------------------------------------------------------+-----------------+--------------+
+; Compilation Hierarchy Node                   ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                                                                                                                        ; Entity Name     ; Library Name ;
++----------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+--------------------------------------------------------------------------------------------------------------------------------------------+-----------------+--------------+
+; |DUT                                         ; 1234 (0)            ; 1325 (0)                  ; 33          ; 0          ; 0            ; 0       ; 0         ; 20   ; 0            ; 0          ; |DUT                                                                                                                                       ; DUT             ; work         ;
+;    |pipeline_stages:add_instance|            ; 1234 (0)            ; 1325 (0)                  ; 33          ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance                                                                                                          ; pipeline_stages ; work         ;
+;       |alu_1:alu2|                           ; 103 (103)           ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|alu_1:alu2                                                                                               ; alu_1           ; work         ;
+;       |counter:counter_rf|                   ; 43 (43)             ; 33 (33)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|counter:counter_rf                                                                                       ; counter         ; work         ;
+;       |data_mem:dmem|                        ; 760 (760)           ; 1024 (1024)               ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|data_mem:dmem                                                                                            ; data_mem        ; work         ;
+;       |decoder:dec_1|                        ; 9 (9)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|decoder:dec_1                                                                                            ; decoder         ; work         ;
+;       |flag_register:pl_reg43|               ; 1 (1)               ; 2 (2)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|flag_register:pl_reg43                                                                                   ; flag_register   ; work         ;
+;       |mem:inst_mem|                         ; 30 (30)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|mem:inst_mem                                                                                             ; mem             ; work         ;
+;       |mux_2x1:m1|                           ; 16 (16)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|mux_2x1:m1                                                                                               ; mux_2x1         ; work         ;
+;       |mux_2x1:m2|                           ; 16 (16)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|mux_2x1:m2                                                                                               ; mux_2x1         ; work         ;
+;       |mux_4x1:m4|                           ; 5 (5)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|mux_4x1:m4                                                                                               ; mux_4x1         ; work         ;
+;       |register_file:rf|                     ; 226 (226)           ; 128 (128)                 ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|register_file:rf                                                                                         ; register_file   ; work         ;
+;       |registers:pl_reg1|                    ; 7 (0)               ; 16 (12)                   ; 33          ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg1                                                                                        ; registers       ; work         ;
+;          |altshift_taps:reg_data_rtl_0|      ; 7 (0)               ; 4 (0)                     ; 33          ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg1|altshift_taps:reg_data_rtl_0                                                           ; altshift_taps   ; work         ;
+;             |shift_taps_tgl:auto_generated|  ; 7 (2)               ; 4 (2)                     ; 33          ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg1|altshift_taps:reg_data_rtl_0|shift_taps_tgl:auto_generated                             ; shift_taps_tgl  ; work         ;
+;                |altsyncram_fv21:altsyncram4| ; 0 (0)               ; 0 (0)                     ; 33          ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg1|altshift_taps:reg_data_rtl_0|shift_taps_tgl:auto_generated|altsyncram_fv21:altsyncram4 ; altsyncram_fv21 ; work         ;
+;                |cntr_s3f:cntr1|              ; 5 (5)               ; 2 (2)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg1|altshift_taps:reg_data_rtl_0|shift_taps_tgl:auto_generated|cntr_s3f:cntr1              ; cntr_s3f        ; work         ;
+;       |registers:pl_reg21|                   ; 0 (0)               ; 11 (11)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg21                                                                                       ; registers       ; work         ;
+;       |registers:pl_reg22|                   ; 0 (0)               ; 7 (7)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg22                                                                                       ; registers       ; work         ;
+;       |registers:pl_reg31|                   ; 0 (0)               ; 16 (16)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg31                                                                                       ; registers       ; work         ;
+;       |registers:pl_reg32|                   ; 0 (0)               ; 16 (16)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg32                                                                                       ; registers       ; work         ;
+;       |registers:pl_reg33|                   ; 1 (1)               ; 5 (5)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg33                                                                                       ; registers       ; work         ;
+;       |registers:pl_reg34|                   ; 0 (0)               ; 7 (7)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg34                                                                                       ; registers       ; work         ;
+;       |registers:pl_reg41|                   ; 15 (15)             ; 16 (16)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg41                                                                                       ; registers       ; work         ;
+;       |registers:pl_reg42|                   ; 0 (0)               ; 3 (3)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg42                                                                                       ; registers       ; work         ;
+;       |registers:pl_reg45|                   ; 0 (0)               ; 2 (2)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg45                                                                                       ; registers       ; work         ;
+;       |registers:pl_reg46|                   ; 0 (0)               ; 16 (16)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg46                                                                                       ; registers       ; work         ;
+;       |registers:pl_reg51|                   ; 0 (0)               ; 16 (16)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg51                                                                                       ; registers       ; work         ;
+;       |registers:pl_reg52|                   ; 0 (0)               ; 3 (3)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg52                                                                                       ; registers       ; work         ;
+;       |registers:pl_reg54|                   ; 0 (0)               ; 2 (2)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|registers:pl_reg54                                                                                       ; registers       ; work         ;
+;       |rf_wr_decoder:rf_wr_dec|              ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|rf_wr_decoder:rf_wr_dec                                                                                  ; rf_wr_decoder   ; work         ;
+;       |rf_wr_register:pl_reg44|              ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|rf_wr_register:pl_reg44                                                                                  ; rf_wr_register  ; work         ;
+;       |rf_wr_register:pl_reg53|              ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DUT|pipeline_stages:add_instance|rf_wr_register:pl_reg53                                                                                  ; rf_wr_register  ; work         ;
++----------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+--------------------------------------------------------------------------------------------------------------------------------------------+-----------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis RAM Summary                                                                                                                                                                                                                      ;
-+---------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+------+
-; Name                                                                                                                                              ; Type ; Mode             ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size ; MIF  ;
-+---------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+------+
-; pipeline_stages:add_instance|registers:pl_reg33|altshift_taps:reg_data_rtl_0|shift_taps_vgl:auto_generated|altsyncram_jv21:altsyncram4|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 3            ; 13           ; 3            ; 13           ; 39   ; None ;
-+---------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis RAM Summary                                                                                                                                                                                                                     ;
++--------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+------+
+; Name                                                                                                                                             ; Type ; Mode             ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size ; MIF  ;
++--------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+------+
+; pipeline_stages:add_instance|registers:pl_reg1|altshift_taps:reg_data_rtl_0|shift_taps_tgl:auto_generated|altsyncram_fv21:altsyncram4|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 3            ; 11           ; 3            ; 11           ; 33   ; None ;
++--------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                                                                       ;
-+----------------------------------------------------------------+-------------------------------------------------------------------------+
-; Register name                                                  ; Reason for Removal                                                      ;
-+----------------------------------------------------------------+-------------------------------------------------------------------------+
-; pipeline_stages:add_instance|registers:pl_reg21|reg_data[14]   ; Merged with pipeline_stages:add_instance|registers:pl_reg22|reg_data[3] ;
-; pipeline_stages:add_instance|registers:pl_reg33|reg_data[14]   ; Merged with pipeline_stages:add_instance|registers:pl_reg34|reg_data[3] ;
-; pipeline_stages:add_instance|registers:pl_reg1|reg_data[14,15] ; Stuck at GND due to stuck port data_in                                  ;
-; pipeline_stages:add_instance|registers:pl_reg22|reg_data[3]    ; Stuck at GND due to stuck port data_in                                  ;
-; pipeline_stages:add_instance|registers:pl_reg21|reg_data[15]   ; Stuck at GND due to stuck port data_in                                  ;
-; pipeline_stages:add_instance|registers:pl_reg34|reg_data[3]    ; Stuck at GND due to stuck port data_in                                  ;
-; pipeline_stages:add_instance|registers:pl_reg33|reg_data[15]   ; Stuck at GND due to stuck port data_in                                  ;
-; pipeline_stages:add_instance|registers:pl_reg22|reg_data[6]    ; Merged with pipeline_stages:add_instance|registers:pl_reg22|reg_data[4] ;
-; pipeline_stages:add_instance|registers:pl_reg34|reg_data[6]    ; Merged with pipeline_stages:add_instance|registers:pl_reg34|reg_data[4] ;
-; Total Number of Removed Registers = 10                         ;                                                                         ;
-+----------------------------------------------------------------+-------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                                                     ;
++--------------------------------------------------------------+-------------------------------------------------------------------------+
+; Register name                                                ; Reason for Removal                                                      ;
++--------------------------------------------------------------+-------------------------------------------------------------------------+
+; pipeline_stages:add_instance|registers:pl_reg21|reg_data[14] ; Merged with pipeline_stages:add_instance|registers:pl_reg22|reg_data[3] ;
+; pipeline_stages:add_instance|registers:pl_reg33|reg_data[14] ; Merged with pipeline_stages:add_instance|registers:pl_reg34|reg_data[3] ;
+; pipeline_stages:add_instance|registers:pl_reg1|reg_data[15]  ; Stuck at GND due to stuck port data_in                                  ;
+; pipeline_stages:add_instance|registers:pl_reg21|reg_data[15] ; Stuck at GND due to stuck port data_in                                  ;
+; pipeline_stages:add_instance|registers:pl_reg33|reg_data[15] ; Stuck at GND due to stuck port data_in                                  ;
+; Total Number of Removed Registers = 5                        ;                                                                         ;
++--------------------------------------------------------------+-------------------------------------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -421,8 +333,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------------------------------------------------+---------------------------+---------------------------------------------------------------+
 ; Register name                                               ; Reason for Removal        ; Registers Removed due to This Register                        ;
 +-------------------------------------------------------------+---------------------------+---------------------------------------------------------------+
-; pipeline_stages:add_instance|registers:pl_reg1|reg_data[14] ; Stuck at GND              ; pipeline_stages:add_instance|registers:pl_reg22|reg_data[3],  ;
-;                                                             ; due to stuck port data_in ; pipeline_stages:add_instance|registers:pl_reg34|reg_data[3]   ;
 ; pipeline_stages:add_instance|registers:pl_reg1|reg_data[15] ; Stuck at GND              ; pipeline_stages:add_instance|registers:pl_reg21|reg_data[15], ;
 ;                                                             ; due to stuck port data_in ; pipeline_stages:add_instance|registers:pl_reg33|reg_data[15]  ;
 +-------------------------------------------------------------+---------------------------+---------------------------------------------------------------+
@@ -433,12 +343,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 230   ;
-; Number of registers using Synchronous Clear  ; 0     ;
-; Number of registers using Synchronous Load   ; 0     ;
+; Total registers                              ; 1325  ;
+; Number of registers using Synchronous Clear  ; 14    ;
+; Number of registers using Synchronous Load   ; 32    ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 112   ;
+; Number of registers using Clock Enable       ; 1167  ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -451,22 +361,21 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; pipeline_stages:add_instance|register_file:rf|regs[5][0]  ; 2       ;
 ; pipeline_stages:add_instance|register_file:rf|regs[6][0]  ; 2       ;
 ; pipeline_stages:add_instance|register_file:rf|regs[4][0]  ; 2       ;
-; pipeline_stages:add_instance|register_file:rf|regs[2][0]  ; 2       ;
 ; pipeline_stages:add_instance|register_file:rf|regs[5][1]  ; 2       ;
 ; pipeline_stages:add_instance|register_file:rf|regs[6][1]  ; 2       ;
 ; pipeline_stages:add_instance|register_file:rf|regs[4][1]  ; 2       ;
 ; pipeline_stages:add_instance|register_file:rf|regs[5][2]  ; 2       ;
 ; pipeline_stages:add_instance|register_file:rf|regs[6][2]  ; 2       ;
+; pipeline_stages:add_instance|register_file:rf|regs[7][2]  ; 2       ;
 ; pipeline_stages:add_instance|register_file:rf|regs[5][3]  ; 2       ;
 ; pipeline_stages:add_instance|register_file:rf|regs[6][3]  ; 2       ;
+; pipeline_stages:add_instance|register_file:rf|regs[7][3]  ; 2       ;
 ; pipeline_stages:add_instance|register_file:rf|regs[5][4]  ; 2       ;
 ; pipeline_stages:add_instance|register_file:rf|regs[6][4]  ; 2       ;
-; pipeline_stages:add_instance|register_file:rf|regs[4][4]  ; 2       ;
 ; pipeline_stages:add_instance|register_file:rf|regs[5][5]  ; 2       ;
 ; pipeline_stages:add_instance|register_file:rf|regs[6][5]  ; 2       ;
 ; pipeline_stages:add_instance|register_file:rf|regs[5][6]  ; 2       ;
 ; pipeline_stages:add_instance|register_file:rf|regs[6][6]  ; 2       ;
-; pipeline_stages:add_instance|register_file:rf|regs[4][6]  ; 2       ;
 ; pipeline_stages:add_instance|register_file:rf|regs[5][7]  ; 2       ;
 ; pipeline_stages:add_instance|register_file:rf|regs[6][7]  ; 2       ;
 ; pipeline_stages:add_instance|register_file:rf|regs[5][8]  ; 2       ;
@@ -480,36 +389,33 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; pipeline_stages:add_instance|register_file:rf|regs[6][11] ; 2       ;
 ; pipeline_stages:add_instance|register_file:rf|regs[5][12] ; 2       ;
 ; pipeline_stages:add_instance|register_file:rf|regs[6][12] ; 2       ;
-; pipeline_stages:add_instance|register_file:rf|regs[2][12] ; 2       ;
 ; pipeline_stages:add_instance|register_file:rf|regs[3][12] ; 2       ;
 ; pipeline_stages:add_instance|register_file:rf|regs[5][13] ; 2       ;
 ; pipeline_stages:add_instance|register_file:rf|regs[6][13] ; 2       ;
-; pipeline_stages:add_instance|register_file:rf|regs[4][13] ; 2       ;
-; pipeline_stages:add_instance|register_file:rf|regs[2][13] ; 2       ;
 ; pipeline_stages:add_instance|register_file:rf|regs[5][14] ; 2       ;
 ; pipeline_stages:add_instance|register_file:rf|regs[6][14] ; 2       ;
-; pipeline_stages:add_instance|register_file:rf|regs[2][14] ; 2       ;
 ; pipeline_stages:add_instance|register_file:rf|regs[5][15] ; 2       ;
 ; pipeline_stages:add_instance|register_file:rf|regs[6][15] ; 2       ;
 ; pipeline_stages:add_instance|register_file:rf|regs[2][15] ; 2       ;
-; Total number of inverted registers = 44                   ;         ;
+; pipeline_stages:add_instance|register_file:rf|regs[1][15] ; 2       ;
+; Total number of inverted registers = 40                   ;         ;
 +-----------------------------------------------------------+---------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------+
-; Registers Packed Into Inferred Megafunctions                                                                                                  ;
-+-----------------------------------------------------------------+----------------------------------------------------------------+------------+
-; Register Name                                                   ; Megafunction                                                   ; Type       ;
-+-----------------------------------------------------------------+----------------------------------------------------------------+------------+
-; pipeline_stages:add_instance|registers:pl_reg52|reg_data[6..11] ; pipeline_stages:add_instance|registers:pl_reg33|reg_data_rtl_0 ; SHIFT_TAPS ;
-; pipeline_stages:add_instance|registers:pl_reg42|reg_data[6..11] ; pipeline_stages:add_instance|registers:pl_reg33|reg_data_rtl_0 ; SHIFT_TAPS ;
-; pipeline_stages:add_instance|registers:pl_reg33|reg_data[0..11] ; pipeline_stages:add_instance|registers:pl_reg33|reg_data_rtl_0 ; SHIFT_TAPS ;
-; pipeline_stages:add_instance|registers:pl_reg45|reg_data[5]     ; pipeline_stages:add_instance|registers:pl_reg33|reg_data_rtl_0 ; SHIFT_TAPS ;
-; pipeline_stages:add_instance|registers:pl_reg34|reg_data[5]     ; pipeline_stages:add_instance|registers:pl_reg33|reg_data_rtl_0 ; SHIFT_TAPS ;
-; pipeline_stages:add_instance|registers:pl_reg22|reg_data[5]     ; pipeline_stages:add_instance|registers:pl_reg33|reg_data_rtl_0 ; SHIFT_TAPS ;
-; pipeline_stages:add_instance|registers:pl_reg21|reg_data[0..5]  ; pipeline_stages:add_instance|registers:pl_reg33|reg_data_rtl_0 ; SHIFT_TAPS ;
-; pipeline_stages:add_instance|registers:pl_reg1|reg_data[0..5]   ; pipeline_stages:add_instance|registers:pl_reg33|reg_data_rtl_0 ; SHIFT_TAPS ;
-+-----------------------------------------------------------------+----------------------------------------------------------------+------------+
++----------------------------------------------------------------------------------------------------------------------------------------------+
+; Registers Packed Into Inferred Megafunctions                                                                                                 ;
++-----------------------------------------------------------------+---------------------------------------------------------------+------------+
+; Register Name                                                   ; Megafunction                                                  ; Type       ;
++-----------------------------------------------------------------+---------------------------------------------------------------+------------+
+; pipeline_stages:add_instance|registers:pl_reg33|reg_data[3..11] ; pipeline_stages:add_instance|registers:pl_reg1|reg_data_rtl_0 ; SHIFT_TAPS ;
+; pipeline_stages:add_instance|registers:pl_reg21|reg_data[3..5]  ; pipeline_stages:add_instance|registers:pl_reg1|reg_data_rtl_0 ; SHIFT_TAPS ;
+; pipeline_stages:add_instance|registers:pl_reg1|reg_data[3..5]   ; pipeline_stages:add_instance|registers:pl_reg1|reg_data_rtl_0 ; SHIFT_TAPS ;
+; pipeline_stages:add_instance|registers:pl_reg52|reg_data[6..11] ; pipeline_stages:add_instance|registers:pl_reg1|reg_data_rtl_0 ; SHIFT_TAPS ;
+; pipeline_stages:add_instance|registers:pl_reg42|reg_data[6..11] ; pipeline_stages:add_instance|registers:pl_reg1|reg_data_rtl_0 ; SHIFT_TAPS ;
+; pipeline_stages:add_instance|registers:pl_reg45|reg_data[5,8]   ; pipeline_stages:add_instance|registers:pl_reg1|reg_data_rtl_0 ; SHIFT_TAPS ;
+; pipeline_stages:add_instance|registers:pl_reg34|reg_data[5,8]   ; pipeline_stages:add_instance|registers:pl_reg1|reg_data_rtl_0 ; SHIFT_TAPS ;
+; pipeline_stages:add_instance|registers:pl_reg22|reg_data[5,8]   ; pipeline_stages:add_instance|registers:pl_reg1|reg_data_rtl_0 ; SHIFT_TAPS ;
++-----------------------------------------------------------------+---------------------------------------------------------------+------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -517,49 +423,50 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                        ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------+
-; 8:1                ; 16 bits   ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; Yes        ; |DUT|pipeline_stages:add_instance|registers:pl_reg32|reg_data[14] ;
-; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |DUT|pipeline_stages:add_instance|mux_4x1:m4|outp[2]              ;
-; 3:1                ; 10 bits   ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; No         ; |DUT|pipeline_stages:add_instance|mux_2x1:m2|outp[11]             ;
+; 4:1                ; 14 bits   ; 28 LEs        ; 28 LEs               ; 0 LEs                  ; Yes        ; |DUT|pipeline_stages:add_instance|registers:pl_reg41|reg_data[15] ;
+; 8:1                ; 16 bits   ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; Yes        ; |DUT|pipeline_stages:add_instance|registers:pl_reg32|reg_data[10] ;
+; 8:1                ; 16 bits   ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; Yes        ; |DUT|pipeline_stages:add_instance|registers:pl_reg31|reg_data[1]  ;
+; 3:1                ; 10 bits   ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; No         ; |DUT|pipeline_stages:add_instance|mux_2x1:m2|outp[15]             ;
 ; 3:1                ; 6 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |DUT|pipeline_stages:add_instance|mux_2x1:m2|outp[0]              ;
-; 8:1                ; 16 bits   ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; No         ; |DUT|pipeline_stages:add_instance|register_file:rf|Mux14          ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |DUT|pipeline_stages:add_instance|mux_4x1:m4|outp[0]              ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Source assignments for pipeline_stages:add_instance|registers:pl_reg33|altshift_taps:reg_data_rtl_0|shift_taps_vgl:auto_generated|altsyncram_jv21:altsyncram4 ;
-+---------------------------------+--------------------+------+-------------------------------------------------------------------------------------------------+
-; Assignment                      ; Value              ; From ; To                                                                                              ;
-+---------------------------------+--------------------+------+-------------------------------------------------------------------------------------------------+
-; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                                                                               ;
-+---------------------------------+--------------------+------+-------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Source assignments for pipeline_stages:add_instance|registers:pl_reg1|altshift_taps:reg_data_rtl_0|shift_taps_tgl:auto_generated|altsyncram_fv21:altsyncram4 ;
++---------------------------------+--------------------+------+------------------------------------------------------------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                                                                             ;
++---------------------------------+--------------------+------+------------------------------------------------------------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                                                                              ;
++---------------------------------+--------------------+------+------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: pipeline_stages:add_instance|registers:pl_reg33|altshift_taps:reg_data_rtl_0 ;
-+----------------+----------------+---------------------------------------------------------------------------------------------+
-; Parameter Name ; Value          ; Type                                                                                        ;
-+----------------+----------------+---------------------------------------------------------------------------------------------+
-; WIDTH_BYTEENA  ; 1              ; Untyped                                                                                     ;
-; NUMBER_OF_TAPS ; 1              ; Untyped                                                                                     ;
-; TAP_DISTANCE   ; 3              ; Untyped                                                                                     ;
-; WIDTH          ; 13             ; Untyped                                                                                     ;
-; POWER_UP_STATE ; CLEARED        ; Untyped                                                                                     ;
-; CBXI_PARAMETER ; shift_taps_vgl ; Untyped                                                                                     ;
-+----------------+----------------+---------------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: pipeline_stages:add_instance|registers:pl_reg1|altshift_taps:reg_data_rtl_0 ;
++----------------+----------------+--------------------------------------------------------------------------------------------+
+; Parameter Name ; Value          ; Type                                                                                       ;
++----------------+----------------+--------------------------------------------------------------------------------------------+
+; WIDTH_BYTEENA  ; 1              ; Untyped                                                                                    ;
+; NUMBER_OF_TAPS ; 1              ; Untyped                                                                                    ;
+; TAP_DISTANCE   ; 3              ; Untyped                                                                                    ;
+; WIDTH          ; 11             ; Untyped                                                                                    ;
+; POWER_UP_STATE ; CLEARED        ; Untyped                                                                                    ;
+; CBXI_PARAMETER ; shift_taps_tgl ; Untyped                                                                                    ;
++----------------+----------------+--------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+-----------------------------------------------------------------------------------------------------------+
-; altshift_taps Parameter Settings by Entity Instance                                                       ;
-+----------------------------+------------------------------------------------------------------------------+
-; Name                       ; Value                                                                        ;
-+----------------------------+------------------------------------------------------------------------------+
-; Number of entity instances ; 1                                                                            ;
-; Entity Instance            ; pipeline_stages:add_instance|registers:pl_reg33|altshift_taps:reg_data_rtl_0 ;
-;     -- NUMBER_OF_TAPS      ; 1                                                                            ;
-;     -- TAP_DISTANCE        ; 3                                                                            ;
-;     -- WIDTH               ; 13                                                                           ;
-+----------------------------+------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------+
+; altshift_taps Parameter Settings by Entity Instance                                                      ;
++----------------------------+-----------------------------------------------------------------------------+
+; Name                       ; Value                                                                       ;
++----------------------------+-----------------------------------------------------------------------------+
+; Number of entity instances ; 1                                                                           ;
+; Entity Instance            ; pipeline_stages:add_instance|registers:pl_reg1|altshift_taps:reg_data_rtl_0 ;
+;     -- NUMBER_OF_TAPS      ; 1                                                                           ;
+;     -- TAP_DISTANCE        ; 3                                                                           ;
+;     -- WIDTH               ; 11                                                                          ;
++----------------------------+-----------------------------------------------------------------------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------+
@@ -585,7 +492,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +---------------------------------------------------------------------+
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
 ; Port Connectivity Checks: "pipeline_stages:add_instance|mux_4x1:m4" ;
 +------+-------+----------+-------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                   ;
@@ -756,34 +662,31 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------+-------+----------+---------------------------------------------+
 
 
-<<<<<<< HEAD
-+---------------------------------+
-; Analysis & Elaboration Messages ;
-+---------------------------------+
-=======
 +-----------------------------------------------------+
 ; Post-Synthesis Netlist Statistics for Top Partition ;
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 20                          ;
-; cycloneiii_ff         ; 230                         ;
-;     ENA               ; 112                         ;
-;     plain             ; 118                         ;
-; cycloneiii_lcell_comb ; 327                         ;
-;     arith             ; 33                          ;
-;         2 data inputs ; 17                          ;
-;         3 data inputs ; 16                          ;
-;     normal            ; 294                         ;
-;         0 data inputs ; 3                           ;
-;         1 data inputs ; 47                          ;
-;         2 data inputs ; 19                          ;
-;         3 data inputs ; 64                          ;
-;         4 data inputs ; 161                         ;
-; cycloneiii_ram_block  ; 13                          ;
+; cycloneiii_ff         ; 1325                        ;
+;     ENA               ; 1167                        ;
+;     SCLR SLD          ; 14                          ;
+;     SLD               ; 18                          ;
+;     plain             ; 126                         ;
+; cycloneiii_lcell_comb ; 1234                        ;
+;     arith             ; 95                          ;
+;         2 data inputs ; 62                          ;
+;         3 data inputs ; 33                          ;
+;     normal            ; 1139                        ;
+;         0 data inputs ; 2                           ;
+;         1 data inputs ; 55                          ;
+;         2 data inputs ; 7                           ;
+;         3 data inputs ; 101                         ;
+;         4 data inputs ; 974                         ;
+; cycloneiii_ram_block  ; 11                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 6.70                        ;
-; Average LUT depth     ; 2.70                        ;
+; Max LUT depth         ; 9.30                        ;
+; Average LUT depth     ; 4.34                        ;
 +-----------------------+-----------------------------+
 
 
@@ -792,20 +695,18 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:02     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
 +-------------------------------+
 ; Analysis & Synthesis Messages ;
 +-------------------------------+
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
 Info: *******************************************************************
-Info: Running Quartus Prime Analysis & Elaboration
+Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-<<<<<<< HEAD
-    Info: Processing started: Mon May 01 01:31:20 2023
-Info: Command: quartus_map --read_settings_files=on --write_settings_files=off IITB_RISC_2023 -c IITB_RISC_2023 --analysis_and_elaboration
+    Info: Processing started: Mon May 01 05:24:07 2023
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off IITB_RISC_2023 -c IITB_RISC_2023
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file complement.vhd
@@ -814,44 +715,31 @@ Info (12021): Found 2 design units, including 1 entities, in source file complem
 Info (12021): Found 2 design units, including 1 entities, in source file alu_beh.vhd
     Info (12022): Found design unit 1: alu_1-bhv File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/alu_beh.vhd Line: 12
     Info (12023): Found entity 1: alu_1 File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/alu_beh.vhd Line: 6
-=======
-    Info: Processing started: Sun Apr 30 19:51:39 2023
-Info: Command: quartus_map --read_settings_files=on --write_settings_files=off IITB_RISC_2023 -c IITB_RISC_2023
-Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
-Info (12021): Found 2 design units, including 1 entities, in source file complement.vhd
-    Info (12022): Found design unit 1: complementer-bhv File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/complement.vhd Line: 11
-    Info (12023): Found entity 1: complementer File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/complement.vhd Line: 6
-Info (12021): Found 2 design units, including 1 entities, in source file alu_beh.vhd
-    Info (12022): Found design unit 1: alu_1-bhv File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/alu_beh.vhd Line: 12
-    Info (12023): Found entity 1: alu_1 File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/alu_beh.vhd Line: 6
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
 Info (12021): Found 2 design units, including 1 entities, in source file rf_wr_decoder.vhd
-    Info (12022): Found design unit 1: rf_wr_decoder-rf_wr_dec_beh File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/rf_wr_decoder.vhd Line: 12
-    Info (12023): Found entity 1: rf_wr_decoder File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/rf_wr_decoder.vhd Line: 5
+    Info (12022): Found design unit 1: rf_wr_decoder-rf_wr_dec_beh File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/rf_wr_decoder.vhd Line: 12
+    Info (12023): Found entity 1: rf_wr_decoder File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/rf_wr_decoder.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file flag_register.vhd
-    Info (12022): Found design unit 1: flag_register-f_reg_beh File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/flag_register.vhd Line: 12
-    Info (12023): Found entity 1: flag_register File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/flag_register.vhd Line: 5
+    Info (12022): Found design unit 1: flag_register-f_reg_beh File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/flag_register.vhd Line: 12
+    Info (12023): Found entity 1: flag_register File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/flag_register.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file testbench.vhd
-    Info (12022): Found design unit 1: Testbench-Behave File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Testbench.vhd Line: 9
-    Info (12023): Found entity 1: Testbench File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Testbench.vhd Line: 7
+    Info (12022): Found design unit 1: Testbench-Behave File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/Testbench.vhd Line: 9
+    Info (12023): Found entity 1: Testbench File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/Testbench.vhd Line: 7
 Info (12021): Found 2 design units, including 1 entities, in source file rf.vhd
-    Info (12022): Found design unit 1: register_file-behav File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/RF.vhd Line: 20
-    Info (12023): Found entity 1: register_file File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/RF.vhd Line: 5
+    Info (12022): Found design unit 1: register_file-behav File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/RF.vhd Line: 20
+    Info (12023): Found entity 1: register_file File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/RF.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file memory.vhd
-    Info (12022): Found design unit 1: mem-behav File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Memory.vhd Line: 15
-    Info (12023): Found entity 1: mem File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Memory.vhd Line: 5
+    Info (12022): Found design unit 1: mem-behav File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/Memory.vhd Line: 15
+    Info (12023): Found entity 1: mem File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/Memory.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file dut.vhd
-    Info (12022): Found design unit 1: DUT-DutWrap File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/DUT.vhd Line: 12
-    Info (12023): Found entity 1: DUT File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/DUT.vhd Line: 7
+    Info (12022): Found design unit 1: DUT-DutWrap File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/DUT.vhd Line: 12
+    Info (12023): Found entity 1: DUT File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/DUT.vhd Line: 7
 Info (12021): Found 2 design units, including 1 entities, in source file iitb_risc_2023.vhd
-    Info (12022): Found design unit 1: pipeline_stages-workflow File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd Line: 9
-    Info (12023): Found entity 1: pipeline_stages File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd Line: 5
+    Info (12022): Found design unit 1: pipeline_stages-workflow File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd Line: 9
+    Info (12023): Found entity 1: pipeline_stages File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file register.vhd
-    Info (12022): Found design unit 1: registers-reg_beh File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/register.vhd Line: 12
-    Info (12023): Found entity 1: registers File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/register.vhd Line: 5
+    Info (12022): Found design unit 1: registers-reg_beh File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/register.vhd Line: 12
+    Info (12023): Found entity 1: registers File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/register.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file decoder.vhd
-<<<<<<< HEAD
     Info (12022): Found design unit 1: decoder-dec_beh File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/decoder.vhd Line: 12
     Info (12023): Found entity 1: decoder File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/decoder.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file rf_wr_reg.vhd
@@ -897,90 +785,43 @@ Info (12128): Elaborating entity "data_mem" for hierarchy "pipeline_stages:add_i
 Warning (10492): VHDL Process Statement warning at Data_Memory.vhd(39): signal "data_mem_wr" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/Data_Memory.vhd Line: 39
 Info (12128): Elaborating entity "mux_4x1" for hierarchy "pipeline_stages:add_instance|mux_4x1:m4" File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd Line: 157
 Info (12128): Elaborating entity "rf_wr_decoder" for hierarchy "pipeline_stages:add_instance|rf_wr_decoder:rf_wr_dec" File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd Line: 161
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 10 warnings
-    Info: Peak virtual memory: 4772 megabytes
-    Info: Processing ended: Mon May 01 01:31:27 2023
-    Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:09
-=======
-    Info (12022): Found design unit 1: decoder-dec_beh File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/decoder.vhd Line: 12
-    Info (12023): Found entity 1: decoder File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/decoder.vhd Line: 5
-Info (12021): Found 2 design units, including 1 entities, in source file rf_wr_reg.vhd
-    Info (12022): Found design unit 1: rf_wr_register-rf_wr_reg_beh File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/rf_wr_reg.vhd Line: 12
-    Info (12023): Found entity 1: rf_wr_register File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/rf_wr_reg.vhd Line: 5
-Info (12021): Found 2 design units, including 1 entities, in source file mux_2x1.vhd
-    Info (12022): Found design unit 1: mux_2x1-mux_beh File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/MUX_2x1.vhd Line: 12
-    Info (12023): Found entity 1: mux_2x1 File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/MUX_2x1.vhd Line: 5
-Info (12021): Found 2 design units, including 1 entities, in source file mux_4x1.vhd
-    Info (12022): Found design unit 1: mux_4x1-mux_beh File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/MUX_4x1.vhd Line: 12
-    Info (12023): Found entity 1: mux_4x1 File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/MUX_4x1.vhd Line: 5
-Info (12021): Found 2 design units, including 1 entities, in source file data_memory.vhd
-    Info (12022): Found design unit 1: data_mem-behav1 File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Data_Memory.vhd Line: 15
-    Info (12023): Found entity 1: data_mem File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Data_Memory.vhd Line: 5
-Info (12021): Found 2 design units, including 1 entities, in source file se6.vhd
-    Info (12022): Found design unit 1: SE6-BHV File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/SE6.vhd Line: 9
-    Info (12023): Found entity 1: SE6 File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/SE6.vhd Line: 5
-Info (12127): Elaborating entity "DUT" for the top level hierarchy
-Info (12128): Elaborating entity "pipeline_stages" for hierarchy "pipeline_stages:add_instance" File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/DUT.vhd Line: 20
-Warning (10541): VHDL Signal Declaration warning at IITB_RISC_2023.vhd(11): used implicit default value for signal "s2" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd Line: 11
-Info (12128): Elaborating entity "register_file" for hierarchy "pipeline_stages:add_instance|register_file:rf" File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd Line: 116
-Info (12128): Elaborating entity "alu_1" for hierarchy "pipeline_stages:add_instance|alu_1:alu1" File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd Line: 118
-Info (12128): Elaborating entity "mux_2x1" for hierarchy "pipeline_stages:add_instance|mux_2x1:m1" File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd Line: 119
-Info (12128): Elaborating entity "SE6" for hierarchy "pipeline_stages:add_instance|SE6:se6_1" File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd Line: 122
-Info (12128): Elaborating entity "complementer" for hierarchy "pipeline_stages:add_instance|complementer:cmplmt" File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd Line: 125
-Info (12128): Elaborating entity "decoder" for hierarchy "pipeline_stages:add_instance|decoder:dec_1" File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd Line: 126
-Info (12128): Elaborating entity "mem" for hierarchy "pipeline_stages:add_instance|mem:inst_mem" File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd Line: 127
-Warning (10492): VHDL Process Statement warning at Memory.vhd(39): signal "mem_wr" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Memory.vhd Line: 39
-Info (12128): Elaborating entity "registers" for hierarchy "pipeline_stages:add_instance|registers:pl_reg1" File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd Line: 129
-Warning (10492): VHDL Process Statement warning at register.vhd(20): signal "reg_wr_en" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/register.vhd Line: 20
-Info (12128): Elaborating entity "flag_register" for hierarchy "pipeline_stages:add_instance|flag_register:pl_reg43" File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd Line: 138
-Warning (10492): VHDL Process Statement warning at flag_register.vhd(20): signal "f_reg_wr_en" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/flag_register.vhd Line: 20
-Info (12128): Elaborating entity "rf_wr_register" for hierarchy "pipeline_stages:add_instance|rf_wr_register:pl_reg44" File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd Line: 139
-Info (12128): Elaborating entity "data_mem" for hierarchy "pipeline_stages:add_instance|data_mem:dmem" File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd Line: 142
-Warning (10036): Verilog HDL or VHDL warning at Data_Memory.vhd(18): object "memory1" assigned a value but never read File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Data_Memory.vhd Line: 18
-Warning (10492): VHDL Process Statement warning at Data_Memory.vhd(39): signal "data_mem_wr" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Data_Memory.vhd Line: 39
-Info (12128): Elaborating entity "mux_4x1" for hierarchy "pipeline_stages:add_instance|mux_4x1:m4" File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd Line: 145
-Info (12128): Elaborating entity "rf_wr_decoder" for hierarchy "pipeline_stages:add_instance|rf_wr_decoder:rf_wr_dec" File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd Line: 149
-Info (276014): Found 1 instances of uninferred RAM logic
-    Info (276013): RAM logic "pipeline_stages:add_instance|mem:inst_mem|memory" is uninferred because MIF is not supported for the selected family File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Memory.vhd Line: 18
+Info (276014): Found 2 instances of uninferred RAM logic
+    Info (276013): RAM logic "pipeline_stages:add_instance|mem:inst_mem|memory" is uninferred because MIF is not supported for the selected family File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/Memory.vhd Line: 18
+    Info (276013): RAM logic "pipeline_stages:add_instance|data_mem:dmem|memory1" is uninferred because MIF is not supported for the selected family File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/Data_Memory.vhd Line: 18
 Info (19000): Inferred 1 megafunctions from design logic
-    Info (276034): Inferred altshift_taps megafunction from the following design logic: "pipeline_stages:add_instance|registers:pl_reg33|reg_data_rtl_0"
+    Info (276034): Inferred altshift_taps megafunction from the following design logic: "pipeline_stages:add_instance|registers:pl_reg1|reg_data_rtl_0"
         Info (286033): Parameter NUMBER_OF_TAPS set to 1
         Info (286033): Parameter TAP_DISTANCE set to 3
-        Info (286033): Parameter WIDTH set to 13
-Info (12130): Elaborated megafunction instantiation "pipeline_stages:add_instance|registers:pl_reg33|altshift_taps:reg_data_rtl_0"
-Info (12133): Instantiated megafunction "pipeline_stages:add_instance|registers:pl_reg33|altshift_taps:reg_data_rtl_0" with the following parameter:
+        Info (286033): Parameter WIDTH set to 11
+Info (12130): Elaborated megafunction instantiation "pipeline_stages:add_instance|registers:pl_reg1|altshift_taps:reg_data_rtl_0"
+Info (12133): Instantiated megafunction "pipeline_stages:add_instance|registers:pl_reg1|altshift_taps:reg_data_rtl_0" with the following parameter:
     Info (12134): Parameter "NUMBER_OF_TAPS" = "1"
     Info (12134): Parameter "TAP_DISTANCE" = "3"
-    Info (12134): Parameter "WIDTH" = "13"
-Info (12021): Found 1 design units, including 1 entities, in source file db/shift_taps_vgl.tdf
-    Info (12023): Found entity 1: shift_taps_vgl File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/db/shift_taps_vgl.tdf Line: 29
-Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_jv21.tdf
-    Info (12023): Found entity 1: altsyncram_jv21 File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/db/altsyncram_jv21.tdf Line: 28
+    Info (12134): Parameter "WIDTH" = "11"
+Info (12021): Found 1 design units, including 1 entities, in source file db/shift_taps_tgl.tdf
+    Info (12023): Found entity 1: shift_taps_tgl File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/db/shift_taps_tgl.tdf Line: 29
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_fv21.tdf
+    Info (12023): Found entity 1: altsyncram_fv21 File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/db/altsyncram_fv21.tdf Line: 28
 Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_oed.tdf
-    Info (12023): Found entity 1: add_sub_oed File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/db/add_sub_oed.tdf Line: 23
+    Info (12023): Found entity 1: add_sub_oed File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/db/add_sub_oed.tdf Line: 23
 Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_s3f.tdf
-    Info (12023): Found entity 1: cntr_s3f File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/db/cntr_s3f.tdf Line: 25
+    Info (12023): Found entity 1: cntr_s3f File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/db/cntr_s3f.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_erb.tdf
-    Info (12023): Found entity 1: cmpr_erb File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/db/cmpr_erb.tdf Line: 23
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "output_vector[0]" is stuck at GND File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/DUT.vhd Line: 9
-    Warning (13410): Pin "output_vector[1]" is stuck at GND File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/DUT.vhd Line: 9
+    Info (12023): Found entity 1: cmpr_erb File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/db/cmpr_erb.tdf Line: 23
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 1 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "input_vector[0]" File: C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/DUT.vhd Line: 8
-Info (21057): Implemented 482 device resources after synthesis - the final resource count might be different
+    Warning (15610): No output dependent on input pin "input_vector[0]" File: C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/DUT.vhd Line: 8
+Info (21057): Implemented 2405 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 18 output pins
-    Info (21061): Implemented 449 logic cells
-    Info (21064): Implemented 13 RAM segments
+    Info (21061): Implemented 2374 logic cells
+    Info (21064): Implemented 11 RAM segments
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 12 warnings
-    Info: Peak virtual memory: 4860 megabytes
-    Info: Processing ended: Sun Apr 30 19:51:54 2023
-    Info: Elapsed time: 00:00:15
-    Info: Total CPU time (on all processors): 00:00:20
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+    Info: Peak virtual memory: 4801 megabytes
+    Info: Processing ended: Mon May 01 05:24:16 2023
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:10
 
 

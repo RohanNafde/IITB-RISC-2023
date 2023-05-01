@@ -10,10 +10,9 @@
 # Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-<<<<<<< HEAD
 # vcom -93 -work work {C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/complement.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:31:40 on May 01,2023
+# Start time: 05:28:27 on May 01,2023
 # vcom -reportprogress 300 -93 -work work C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/complement.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -23,320 +22,180 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity complementer
 # -- Compiling architecture bhv of complementer
-# End time: 01:31:40 on May 01,2023, Elapsed time: 0:00:00
+# End time: 05:28:27 on May 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/alu_beh.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:31:40 on May 01,2023
+# Start time: 05:28:27 on May 01,2023
 # vcom -reportprogress 300 -93 -work work C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/alu_beh.vhd 
-=======
-# vcom -93 -work work {C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/complement.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:52:14 on Apr 30,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/complement.vhd 
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Loading package NUMERIC_STD
-<<<<<<< HEAD
 # -- Compiling entity alu_1
 # -- Compiling architecture bhv of alu_1
-# End time: 01:31:40 on May 01,2023, Elapsed time: 0:00:00
-=======
-# -- Compiling entity complementer
-# -- Compiling architecture bhv of complementer
-# End time: 19:52:14 on Apr 30,2023, Elapsed time: 0:00:00
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+# End time: 05:28:27 on May 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/alu_beh.vhd}
+# vcom -93 -work work {C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/rf_wr_decoder.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-<<<<<<< HEAD
-# Start time: 01:31:40 on May 01,2023
+# Start time: 05:28:27 on May 01,2023
 # vcom -reportprogress 300 -93 -work work C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/rf_wr_decoder.vhd 
-=======
-# Start time: 19:52:14 on Apr 30,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/alu_beh.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_1
-# -- Compiling architecture bhv of alu_1
-# End time: 19:52:14 on Apr 30,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/rf_wr_decoder.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:52:15 on Apr 30,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/rf_wr_decoder.vhd 
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity rf_wr_decoder
 # -- Compiling architecture rf_wr_dec_beh of rf_wr_decoder
-<<<<<<< HEAD
-# End time: 01:31:40 on May 01,2023, Elapsed time: 0:00:00
-=======
-# End time: 19:52:15 on Apr 30,2023, Elapsed time: 0:00:00
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+# End time: 05:28:27 on May 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/flag_register.vhd}
+# vcom -93 -work work {C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/flag_register.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-<<<<<<< HEAD
-# Start time: 01:31:40 on May 01,2023
+# Start time: 05:28:27 on May 01,2023
 # vcom -reportprogress 300 -93 -work work C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/flag_register.vhd 
-=======
-# Start time: 19:52:15 on Apr 30,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/flag_register.vhd 
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity flag_register
 # -- Compiling architecture f_reg_beh of flag_register
-<<<<<<< HEAD
-# End time: 01:31:41 on May 01,2023, Elapsed time: 0:00:01
-=======
-# End time: 19:52:15 on Apr 30,2023, Elapsed time: 0:00:00
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+# End time: 05:28:27 on May 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/RF.vhd}
+# vcom -93 -work work {C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/RF.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-<<<<<<< HEAD
-# Start time: 01:31:41 on May 01,2023
+# Start time: 05:28:27 on May 01,2023
 # vcom -reportprogress 300 -93 -work work C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/RF.vhd 
-=======
-# Start time: 19:52:15 on Apr 30,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/RF.vhd 
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity register_file
 # -- Compiling architecture behav of register_file
-<<<<<<< HEAD
-# End time: 01:31:41 on May 01,2023, Elapsed time: 0:00:00
-=======
-# End time: 19:52:15 on Apr 30,2023, Elapsed time: 0:00:00
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+# End time: 05:28:27 on May 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Memory.vhd}
+# vcom -93 -work work {C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/Memory.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-<<<<<<< HEAD
-# Start time: 01:31:41 on May 01,2023
+# Start time: 05:28:27 on May 01,2023
 # vcom -reportprogress 300 -93 -work work C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/Memory.vhd 
-=======
-# Start time: 19:52:15 on Apr 30,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Memory.vhd 
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity mem
 # -- Compiling architecture behav of mem
-<<<<<<< HEAD
-# End time: 01:31:41 on May 01,2023, Elapsed time: 0:00:00
-=======
-# End time: 19:52:15 on Apr 30,2023, Elapsed time: 0:00:00
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+# End time: 05:28:27 on May 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/DUT.vhd}
+# vcom -93 -work work {C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/DUT.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-<<<<<<< HEAD
-# Start time: 01:31:41 on May 01,2023
+# Start time: 05:28:27 on May 01,2023
 # vcom -reportprogress 300 -93 -work work C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/DUT.vhd 
-=======
-# Start time: 19:52:15 on Apr 30,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/DUT.vhd 
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity DUT
 # -- Compiling architecture DutWrap of DUT
-<<<<<<< HEAD
-# End time: 01:31:41 on May 01,2023, Elapsed time: 0:00:00
-=======
-# End time: 19:52:15 on Apr 30,2023, Elapsed time: 0:00:00
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+# End time: 05:28:27 on May 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd}
+# vcom -93 -work work {C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-<<<<<<< HEAD
-# Start time: 01:31:41 on May 01,2023
+# Start time: 05:28:27 on May 01,2023
 # vcom -reportprogress 300 -93 -work work C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd 
-=======
-# Start time: 19:52:15 on Apr 30,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/IITB_RISC_2023.vhd 
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity pipeline_stages
 # -- Compiling architecture workflow of pipeline_stages
-<<<<<<< HEAD
-# End time: 01:31:41 on May 01,2023, Elapsed time: 0:00:00
-=======
-# End time: 19:52:15 on Apr 30,2023, Elapsed time: 0:00:00
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+# End time: 05:28:27 on May 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/register.vhd}
+# vcom -93 -work work {C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/register.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-<<<<<<< HEAD
-# Start time: 01:31:41 on May 01,2023
+# Start time: 05:28:27 on May 01,2023
 # vcom -reportprogress 300 -93 -work work C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/register.vhd 
-=======
-# Start time: 19:52:16 on Apr 30,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/register.vhd 
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity registers
 # -- Compiling architecture reg_beh of registers
-<<<<<<< HEAD
-# End time: 01:31:41 on May 01,2023, Elapsed time: 0:00:00
-=======
-# End time: 19:52:16 on Apr 30,2023, Elapsed time: 0:00:00
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+# End time: 05:28:27 on May 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/decoder.vhd}
+# vcom -93 -work work {C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/decoder.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-<<<<<<< HEAD
-# Start time: 01:31:41 on May 01,2023
+# Start time: 05:28:28 on May 01,2023
 # vcom -reportprogress 300 -93 -work work C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/decoder.vhd 
-=======
-# Start time: 19:52:16 on Apr 30,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/decoder.vhd 
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity decoder
 # -- Compiling architecture dec_beh of decoder
-<<<<<<< HEAD
-# End time: 01:31:41 on May 01,2023, Elapsed time: 0:00:00
+# End time: 05:28:28 on May 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/rf_wr_reg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:31:41 on May 01,2023
+# Start time: 05:28:28 on May 01,2023
 # vcom -reportprogress 300 -93 -work work C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/rf_wr_reg.vhd 
-=======
-# End time: 19:52:16 on Apr 30,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/rf_wr_reg.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:52:16 on Apr 30,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/rf_wr_reg.vhd 
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity rf_wr_register
 # -- Compiling architecture rf_wr_reg_beh of rf_wr_register
-<<<<<<< HEAD
-# End time: 01:31:41 on May 01,2023, Elapsed time: 0:00:00
+# End time: 05:28:28 on May 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/MUX_2x1.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:31:41 on May 01,2023
+# Start time: 05:28:28 on May 01,2023
 # vcom -reportprogress 300 -93 -work work C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/MUX_2x1.vhd 
-=======
-# End time: 19:52:16 on Apr 30,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/MUX_2x1.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:52:16 on Apr 30,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/MUX_2x1.vhd 
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity mux_2x1
 # -- Compiling architecture mux_beh of mux_2x1
-<<<<<<< HEAD
-# End time: 01:31:41 on May 01,2023, Elapsed time: 0:00:00
+# End time: 05:28:28 on May 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/MUX_4x1.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:31:41 on May 01,2023
+# Start time: 05:28:28 on May 01,2023
 # vcom -reportprogress 300 -93 -work work C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/MUX_4x1.vhd 
-=======
-# End time: 19:52:16 on Apr 30,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/MUX_4x1.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:52:16 on Apr 30,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/MUX_4x1.vhd 
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity mux_4x1
 # -- Compiling architecture mux_beh of mux_4x1
-<<<<<<< HEAD
-# End time: 01:31:41 on May 01,2023, Elapsed time: 0:00:00
+# End time: 05:28:28 on May 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/Data_Memory.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:31:41 on May 01,2023
+# Start time: 05:28:28 on May 01,2023
 # vcom -reportprogress 300 -93 -work work C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/Data_Memory.vhd 
-=======
-# End time: 19:52:16 on Apr 30,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Data_Memory.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:52:16 on Apr 30,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Data_Memory.vhd 
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity data_mem
 # -- Compiling architecture behav1 of data_mem
-<<<<<<< HEAD
-# End time: 01:31:41 on May 01,2023, Elapsed time: 0:00:00
+# End time: 05:28:28 on May 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/SE6.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:31:41 on May 01,2023
+# Start time: 05:28:28 on May 01,2023
 # vcom -reportprogress 300 -93 -work work C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/SE6.vhd 
-=======
-# End time: 19:52:16 on Apr 30,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/SE6.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:52:16 on Apr 30,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/SE6.vhd 
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity SE6
 # -- Compiling architecture BHV of SE6
-<<<<<<< HEAD
-# End time: 01:31:42 on May 01,2023, Elapsed time: 0:00:01
+# End time: 05:28:28 on May 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/counter.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:31:42 on May 01,2023
+# Start time: 05:28:28 on May 01,2023
 # vcom -reportprogress 300 -93 -work work C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/counter.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -344,40 +203,24 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity counter
 # -- Compiling architecture counter_beh of counter
-# End time: 01:31:42 on May 01,2023, Elapsed time: 0:00:00
-=======
-# End time: 19:52:17 on Apr 30,2023, Elapsed time: 0:00:01
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+# End time: 05:28:28 on May 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vcom -93 -work work {C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Testbench.vhd}
+# vcom -93 -work work {C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/Testbench.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-<<<<<<< HEAD
-# Start time: 01:31:42 on May 01,2023
+# Start time: 05:28:28 on May 01,2023
 # vcom -reportprogress 300 -93 -work work C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/Testbench.vhd 
-=======
-# Start time: 19:52:17 on Apr 30,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/anway/OneDrive/Desktop/IITB-RISC-2023/EE309_project/Testbench.vhd 
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity Testbench
 # -- Compiling architecture Behave of Testbench
-<<<<<<< HEAD
-# End time: 01:31:42 on May 01,2023, Elapsed time: 0:00:00
-=======
-# End time: 19:52:17 on Apr 30,2023, Elapsed time: 0:00:00
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+# End time: 05:28:28 on May 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  Testbench
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" Testbench 
-<<<<<<< HEAD
-# Start time: 01:31:42 on May 01,2023
-=======
-# Start time: 19:52:17 on Apr 30,2023
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+# Start time: 05:28:28 on May 01,2023
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -454,12 +297,13 @@
 #    Time: 19 ns  Iteration: 3  Instance: /testbench/dut_instance/add_instance/alu2
 # ** Error: (vsim-3549) TEXTIO procedure READ(BIT_VECTOR) : Wrong BIT_VECTOR length. Expected 18, found 0.
 #    Time: 38 ns  Iteration: 0  Instance: /testbench
-# ** Error: (vsim-3549) TEXTIO procedure READ(BIT_VECTOR) : Wrong BIT_VECTOR length. Expected 2, found 0.
-#    Time: 57 ns  Iteration: 0  Instance: /testbench
 # ** Error: (vsim-3549) TEXTIO procedure READ(BIT_VECTOR) : Wrong BIT_VECTOR length. Expected 18, found 0.
 #    Time: 57 ns  Iteration: 0  Instance: /testbench
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 57 ns  Iteration: 2  Instance: /testbench/dut_instance/add_instance/rf
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 57 ns  Iteration: 2  Instance: /testbench/dut_instance/add_instance/rf
 # ** Error: (vsim-3549) TEXTIO procedure READ(BIT_VECTOR) : Wrong BIT_VECTOR length. Expected 18, found 0.
-<<<<<<< HEAD
 #    Time: 76 ns  Iteration: 0  Instance: /testbench
 # ** Error: (vsim-3549) TEXTIO procedure READ(BIT_VECTOR) : Wrong BIT_VECTOR length. Expected 18, found 0.
 #    Time: 95 ns  Iteration: 0  Instance: /testbench
@@ -495,12 +339,5 @@
 #    Time: 380 ns  Iteration: 0  Instance: /testbench
 # ** Note: SUCCESS, all tests passed.
 #    Time: 399 ns  Iteration: 0  Instance: /testbench
-# End time: 02:13:42 on May 01,2023, Elapsed time: 0:42:00
+# End time: 05:28:45 on May 01,2023, Elapsed time: 0:00:17
 # Errors: 21, Warnings: 22
-=======
-#    Time: 57 ns  Iteration: 0  Instance: /testbench
-# ** Note: SUCCESS, all tests passed.
-#    Time: 76 ns  Iteration: 0  Instance: /testbench
-# End time: 19:54:23 on Apr 30,2023, Elapsed time: 0:02:06
-# Errors: 6, Warnings: 19
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d

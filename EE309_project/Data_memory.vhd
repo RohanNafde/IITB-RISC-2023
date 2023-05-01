@@ -16,14 +16,14 @@ architecture behav1 of data_mem is
 	type mem1_array is array (0 to 63) of std_logic_vector (15 downto 0);
 	
 	signal memory1: mem1_array := (
-	x"FFFF",x"0000", x"0000", x"0000",
+	x"0000",x"0000", x"0000", x"0000",
 	x"0000",x"0000", x"0000", x"0000",
 	x"0000",x"0000", x"0000", x"0000",
 	x"0000",x"0000", x"0000", x"0000",
 	x"0000",x"0000", x"0000", x"0000",
    x"0000",x"0000", x"0000", x"0000",
 	x"0000",x"0000", x"0000", x"0000",
-	x"0000",x"0000", x"0000", x"0000",
+	x"0000",x"0000", x"0000", x"AAAA",
 	x"0000",x"0000", x"0000", x"0000",
 	x"0000",x"0000", x"0000", x"0000",
 	x"0000",x"0000", x"0000", x"0000",
@@ -43,7 +43,6 @@ architecture behav1 of data_mem is
 		end if;
 	end process;
 	
-	--data_mem_d0 <= memory1(to_integer(unsigned(data_mem_a0)));
-	data_mem_d0 <= "1111000011110000";
+	data_mem_d0 <= memory1(to_integer(unsigned(data_mem_a0(5 downto 0))));
 
 end behav1;

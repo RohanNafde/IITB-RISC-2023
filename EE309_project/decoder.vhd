@@ -35,11 +35,7 @@ return std_logic_vector is
 				output(15 downto 14) := "00";
 			end if;
 			output(3) := dec_in(14); -- alu_a mux ka contro1
-<<<<<<< HEAD
 			output(4) := (dec_in(13) and dec_in(12)) or dec_in(14) or (not(dec_in(13)) and not(dec_in(12))); -- alu_b ka control
-=======
-			output(4) := (dec_in(13) and dec_in(12)) or dec_in(14); -- alu_b ka control
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
 			output(5) := (not(dec_in(15)) and dec_in(14)) or (dec_in(13) and dec_in(12)); -- output register ka control
 			output(7) := (dec_in(13) xor dec_in(12)) and not(dec_in(15)) and not(dec_in(14)); -- output register destination ka control bit 0
 			output(6) := (dec_in(13) and dec_in(12)) or (not(dec_in(15)) and dec_in(14) and not(dec_in(13)) and not(dec_in(12))); -- output register destination ka control bit 1

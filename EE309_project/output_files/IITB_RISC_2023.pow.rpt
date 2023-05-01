@@ -1,9 +1,5 @@
 Power Analyzer report for IITB_RISC_2023
-<<<<<<< HEAD
-Mon May 01 01:25:22 2023
-=======
-Sun Apr 30 19:29:44 2023
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+Mon May 01 05:24:33 2023
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -57,31 +53,19 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-<<<<<<< HEAD
-; Average used               ; 1.33        ;
-=======
-; Average used               ; 1.22        ;
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+; Average used               ; 1.63        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-<<<<<<< HEAD
-;     Processors 2-4         ;  10.9%      ;
-=======
-;     Processors 2-4         ;   7.4%      ;
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+;     Processors 2-4         ;  20.8%      ;
 +----------------------------+-------------+
 
 
 +-------------------------------------------------------------------------------------------+
 ; Power Analyzer Summary                                                                    ;
 +----------------------------------------+--------------------------------------------------+
-<<<<<<< HEAD
-; Power Analyzer Status                  ; Successful - Mon May 01 01:25:22 2023            ;
-=======
-; Power Analyzer Status                  ; Successful - Sun Apr 30 19:29:44 2023            ;
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+; Power Analyzer Status                  ; Successful - Mon May 01 05:24:33 2023            ;
 ; Quartus Prime Version                  ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition      ;
 ; Revision Name                          ; IITB_RISC_2023                                   ;
 ; Top-level Entity Name                  ; DUT                                              ;
@@ -169,6 +153,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------+-----------------------------------+-----------------------------+--------------------------------+-------------------------------+-----------------------------------------------------------+
 ; Block Type         ; Total Thermal Power by Block Type ; Block Thermal Dynamic Power ; Block Thermal Static Power (1) ; Routing Thermal Dynamic Power ; Block Average Toggle Rate (millions of transitions / sec) ;
 +--------------------+-----------------------------------+-----------------------------+--------------------------------+-------------------------------+-----------------------------------------------------------+
+; M9K                ; 0.00 mW                           ; 0.00 mW                     ; --                             ; 0.00 mW                       ;    0.000                                                  ;
 ; Combinational cell ; 0.00 mW                           ; 0.00 mW                     ; --                             ; 0.00 mW                       ;    0.000                                                  ;
 ; Register cell      ; 0.00 mW                           ; 0.00 mW                     ; --                             ; 0.00 mW                       ;    0.000                                                  ;
 ; I/O                ; 0.12 mW                           ; 0.00 mW                     ; 0.12 mW                        ; 0.00 mW                       ;    0.000                                                  ;
@@ -177,81 +162,46 @@ https://fpgasoftware.intel.com/eula.
 (1) The "Block Thermal Static Power" for all block types except Pins and the Voltage Regulator, if one exists, is part of the "Core Static Thermal Power Dissipation" value found on the PowerPlay Power Analyzer-->Summary report panel. The "Core Static Thermal Power Dissipation" also contains the thermal static power dissipated by the routing.
 
 
-<<<<<<< HEAD
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Thermal Power Dissipation by Hierarchy                                                                                                                                                                                                           ;
-+-------------------------------------+--------------------------------------+---------------------------------+-----------------------------------+-----------------------------------+-----------------------------------------------------------+
-; Compilation Hierarchy Node          ; Total Thermal Power by Hierarchy (1) ; Block Thermal Dynamic Power (1) ; Block Thermal Static Power (1)(2) ; Routing Thermal Dynamic Power (1) ; Full Hierarchy Name                                       ;
-+-------------------------------------+--------------------------------------+---------------------------------+-----------------------------------+-----------------------------------+-----------------------------------------------------------+
-; |DUT                                ; 0.12 mW (0.12 mW)                    ; 0.00 mW (0.00 mW)               ; 0.12 mW (0.12 mW)                 ; 0.00 mW (0.00 mW)                 ; |DUT                                                      ;
-;     |pipeline_stages:add_instance   ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance                         ;
-;         |alu_1:alu2                 ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|alu_1:alu2              ;
-;         |counter:counter_rf         ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|counter:counter_rf      ;
-;         |decoder:dec_1              ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|decoder:dec_1           ;
-;         |mem:inst_mem               ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|mem:inst_mem            ;
-;         |mux_2x1:m1                 ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|mux_2x1:m1              ;
-;         |mux_2x1:m2                 ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|mux_2x1:m2              ;
-;         |mux_2x1:m3                 ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|mux_2x1:m3              ;
-;         |mux_4x1:m4                 ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|mux_4x1:m4              ;
-;         |registers:pl_reg1          ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg1       ;
-;         |registers:pl_reg21         ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg21      ;
-;         |registers:pl_reg22         ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg22      ;
-;         |registers:pl_reg31         ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg31      ;
-;         |registers:pl_reg32         ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg32      ;
-;         |registers:pl_reg33         ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg33      ;
-;         |registers:pl_reg34         ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg34      ;
-;         |registers:pl_reg41         ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg41      ;
-;         |registers:pl_reg42         ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg42      ;
-;         |flag_register:pl_reg43     ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|flag_register:pl_reg43  ;
-;         |rf_wr_register:pl_reg44    ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|rf_wr_register:pl_reg44 ;
-;         |registers:pl_reg45         ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg45      ;
-;         |registers:pl_reg51         ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg51      ;
-;         |registers:pl_reg52         ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg52      ;
-;         |rf_wr_register:pl_reg53    ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|rf_wr_register:pl_reg53 ;
-;         |registers:pl_reg54         ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg54      ;
-;         |register_file:rf           ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|register_file:rf        ;
-;         |rf_wr_decoder:rf_wr_dec    ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|rf_wr_decoder:rf_wr_dec ;
-;     |hard_block:auto_generated_inst ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|hard_block:auto_generated_inst                       ;
-+-------------------------------------+--------------------------------------+---------------------------------+-----------------------------------+-----------------------------------+-----------------------------------------------------------+
-=======
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Thermal Power Dissipation by Hierarchy                                                                                                                                                                                                                                                                                                          ;
-+--------------------------------------------------+--------------------------------------+---------------------------------+-----------------------------------+-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
-; Compilation Hierarchy Node                       ; Total Thermal Power by Hierarchy (1) ; Block Thermal Dynamic Power (1) ; Block Thermal Static Power (1)(2) ; Routing Thermal Dynamic Power (1) ; Full Hierarchy Name                                                                                                                         ;
-+--------------------------------------------------+--------------------------------------+---------------------------------+-----------------------------------+-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
-; |DUT                                             ; 0.12 mW (0.12 mW)                    ; 0.00 mW (0.00 mW)               ; 0.12 mW (0.12 mW)                 ; 0.00 mW (0.00 mW)                 ; |DUT                                                                                                                                        ;
-;     |pipeline_stages:add_instance                ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance                                                                                                           ;
-;         |alu_1:alu2                              ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|alu_1:alu2                                                                                                ;
-;         |decoder:dec_1                           ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|decoder:dec_1                                                                                             ;
-;         |mem:inst_mem                            ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|mem:inst_mem                                                                                              ;
-;         |mux_2x1:m2                              ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|mux_2x1:m2                                                                                                ;
-;         |mux_2x1:m3                              ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|mux_2x1:m3                                                                                                ;
-;         |mux_4x1:m4                              ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|mux_4x1:m4                                                                                                ;
-;         |registers:pl_reg1                       ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg1                                                                                         ;
-;         |registers:pl_reg21                      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg21                                                                                        ;
-;         |registers:pl_reg22                      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg22                                                                                        ;
-;         |registers:pl_reg31                      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg31                                                                                        ;
-;         |registers:pl_reg32                      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg32                                                                                        ;
-;         |registers:pl_reg33                      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg33                                                                                        ;
-;             |altshift_taps:reg_data_rtl_0        ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg33|altshift_taps:reg_data_rtl_0                                                           ;
-;                 |shift_taps_vgl:auto_generated   ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg33|altshift_taps:reg_data_rtl_0|shift_taps_vgl:auto_generated                             ;
-;                     |altsyncram_jv21:altsyncram4 ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg33|altshift_taps:reg_data_rtl_0|shift_taps_vgl:auto_generated|altsyncram_jv21:altsyncram4 ;
-;                     |cntr_s3f:cntr1              ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg33|altshift_taps:reg_data_rtl_0|shift_taps_vgl:auto_generated|cntr_s3f:cntr1              ;
-;         |registers:pl_reg34                      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg34                                                                                        ;
-;         |registers:pl_reg41                      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg41                                                                                        ;
-;         |registers:pl_reg42                      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg42                                                                                        ;
-;         |flag_register:pl_reg43                  ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|flag_register:pl_reg43                                                                                    ;
-;         |rf_wr_register:pl_reg44                 ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|rf_wr_register:pl_reg44                                                                                   ;
-;         |registers:pl_reg45                      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg45                                                                                        ;
-;         |registers:pl_reg51                      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg51                                                                                        ;
-;         |registers:pl_reg52                      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg52                                                                                        ;
-;         |rf_wr_register:pl_reg53                 ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|rf_wr_register:pl_reg53                                                                                   ;
-;         |registers:pl_reg54                      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg54                                                                                        ;
-;         |register_file:rf                        ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|register_file:rf                                                                                          ;
-;         |rf_wr_decoder:rf_wr_dec                 ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|rf_wr_decoder:rf_wr_dec                                                                                   ;
-;     |hard_block:auto_generated_inst              ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|hard_block:auto_generated_inst                                                                                                         ;
-+--------------------------------------------------+--------------------------------------+---------------------------------+-----------------------------------+-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Thermal Power Dissipation by Hierarchy                                                                                                                                                                                                                                                                                                         ;
++--------------------------------------------------+--------------------------------------+---------------------------------+-----------------------------------+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+; Compilation Hierarchy Node                       ; Total Thermal Power by Hierarchy (1) ; Block Thermal Dynamic Power (1) ; Block Thermal Static Power (1)(2) ; Routing Thermal Dynamic Power (1) ; Full Hierarchy Name                                                                                                                        ;
++--------------------------------------------------+--------------------------------------+---------------------------------+-----------------------------------+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+; |DUT                                             ; 0.12 mW (0.12 mW)                    ; 0.00 mW (0.00 mW)               ; 0.12 mW (0.12 mW)                 ; 0.00 mW (0.00 mW)                 ; |DUT                                                                                                                                       ;
+;     |pipeline_stages:add_instance                ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance                                                                                                          ;
+;         |alu_1:alu2                              ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|alu_1:alu2                                                                                               ;
+;         |counter:counter_rf                      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|counter:counter_rf                                                                                       ;
+;         |decoder:dec_1                           ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|decoder:dec_1                                                                                            ;
+;         |data_mem:dmem                           ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|data_mem:dmem                                                                                            ;
+;         |mem:inst_mem                            ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|mem:inst_mem                                                                                             ;
+;         |mux_2x1:m1                              ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|mux_2x1:m1                                                                                               ;
+;         |mux_2x1:m2                              ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|mux_2x1:m2                                                                                               ;
+;         |mux_4x1:m4                              ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|mux_4x1:m4                                                                                               ;
+;         |registers:pl_reg1                       ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg1                                                                                        ;
+;             |altshift_taps:reg_data_rtl_0        ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg1|altshift_taps:reg_data_rtl_0                                                           ;
+;                 |shift_taps_tgl:auto_generated   ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg1|altshift_taps:reg_data_rtl_0|shift_taps_tgl:auto_generated                             ;
+;                     |altsyncram_fv21:altsyncram4 ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg1|altshift_taps:reg_data_rtl_0|shift_taps_tgl:auto_generated|altsyncram_fv21:altsyncram4 ;
+;                     |cntr_s3f:cntr1              ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg1|altshift_taps:reg_data_rtl_0|shift_taps_tgl:auto_generated|cntr_s3f:cntr1              ;
+;         |registers:pl_reg21                      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg21                                                                                       ;
+;         |registers:pl_reg22                      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg22                                                                                       ;
+;         |registers:pl_reg31                      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg31                                                                                       ;
+;         |registers:pl_reg32                      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg32                                                                                       ;
+;         |registers:pl_reg33                      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg33                                                                                       ;
+;         |registers:pl_reg34                      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg34                                                                                       ;
+;         |registers:pl_reg41                      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg41                                                                                       ;
+;         |registers:pl_reg42                      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg42                                                                                       ;
+;         |flag_register:pl_reg43                  ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|flag_register:pl_reg43                                                                                   ;
+;         |rf_wr_register:pl_reg44                 ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|rf_wr_register:pl_reg44                                                                                  ;
+;         |registers:pl_reg45                      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg45                                                                                       ;
+;         |registers:pl_reg46                      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg46                                                                                       ;
+;         |registers:pl_reg51                      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg51                                                                                       ;
+;         |registers:pl_reg52                      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg52                                                                                       ;
+;         |rf_wr_register:pl_reg53                 ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|rf_wr_register:pl_reg53                                                                                  ;
+;         |registers:pl_reg54                      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|registers:pl_reg54                                                                                       ;
+;         |register_file:rf                        ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|register_file:rf                                                                                         ;
+;         |rf_wr_decoder:rf_wr_dec                 ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|pipeline_stages:add_instance|rf_wr_decoder:rf_wr_dec                                                                                  ;
+;     |hard_block:auto_generated_inst              ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |DUT|hard_block:auto_generated_inst                                                                                                        ;
++--------------------------------------------------+--------------------------------------+---------------------------------+-----------------------------------+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 (1) Value in parentheses is the power consumed at that level of hierarchy. Value not in parentheses is the power consumed at that level of hierarchy plus the power consumed by all levels of hierarchy below it.
 
 (2) The "Block Thermal Static Power" for all levels of hierarchy except the top-level hierarchy is part of the "Core Static Thermal Power Dissipation" value found on the PowerPlay Power Analyzer-->Summary report panel. The "Core Static Thermal Power Dissipation" also contains the thermal static power dissipated by the routing.
@@ -284,24 +234,15 @@ https://fpgasoftware.intel.com/eula.
 +----------+---------------+---------------------+-----------------------+----------------------+
 ; I/O Bank ; VCCIO Voltage ; Total Current Drawn ; Dynamic Current Drawn ; Static Current Drawn ;
 +----------+---------------+---------------------+-----------------------+----------------------+
-; 1A       ; 2.5V          ; 0.31 mA             ; 0.00 mA               ; 0.31 mA              ;
+; 1A       ; 2.5V          ; 0.32 mA             ; 0.00 mA               ; 0.32 mA              ;
 ; 1B       ; 2.5V          ; 0.31 mA             ; 0.00 mA               ; 0.31 mA              ;
 ; 2        ; 2.5V          ; 0.30 mA             ; 0.00 mA               ; 0.30 mA              ;
-<<<<<<< HEAD
-; 3        ; 2.5V          ; 0.32 mA             ; 0.00 mA               ; 0.32 mA              ;
-; 4        ; 2.5V          ; 0.31 mA             ; 0.00 mA               ; 0.31 mA              ;
+; 3        ; 2.5V          ; 0.31 mA             ; 0.00 mA               ; 0.31 mA              ;
+; 4        ; 2.5V          ; 0.30 mA             ; 0.00 mA               ; 0.30 mA              ;
 ; 5        ; 2.5V          ; 0.30 mA             ; 0.00 mA               ; 0.30 mA              ;
 ; 6        ; 2.5V          ; 0.30 mA             ; 0.00 mA               ; 0.30 mA              ;
 ; 7        ; 2.5V          ; 0.30 mA             ; 0.00 mA               ; 0.30 mA              ;
-; 8        ; 2.5V          ; 0.33 mA             ; 0.00 mA               ; 0.33 mA              ;
-=======
-; 3        ; 2.5V          ; 0.30 mA             ; 0.00 mA               ; 0.30 mA              ;
-; 4        ; 2.5V          ; 0.30 mA             ; 0.00 mA               ; 0.30 mA              ;
-; 5        ; 2.5V          ; 0.31 mA             ; 0.00 mA               ; 0.31 mA              ;
-; 6        ; 2.5V          ; 0.34 mA             ; 0.00 mA               ; 0.34 mA              ;
-; 7        ; 2.5V          ; 0.30 mA             ; 0.00 mA               ; 0.30 mA              ;
-; 8        ; 2.5V          ; 0.32 mA             ; 0.00 mA               ; 0.32 mA              ;
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+; 8        ; 2.5V          ; 0.34 mA             ; 0.00 mA               ; 0.34 mA              ;
 +----------+---------------+---------------------+-----------------------+----------------------+
 
 
@@ -316,44 +257,31 @@ https://fpgasoftware.intel.com/eula.
 (2) Currents reported in column "Minimum Power Supply Current" are sufficient for power-up, configuration, and user operation of the device.
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------+
-; Confidence Metric Details                                                                                                                        ;
-+----------------------------------------------------------------------------------------+-------------+------------+--------------+---------------+
-; Data Source                                                                            ; Total       ; Pin        ; Registered   ; Combinational ;
-+----------------------------------------------------------------------------------------+-------------+------------+--------------+---------------+
-; Simulation (from file)                                                                 ;             ;            ;              ;               ;
-;     -- Number of signals with Toggle Rate from Simulation                              ; 0 (0.0%)    ; 0 (0.0%)   ; 0 (0.0%)     ; 0 (0.0%)      ;
-;     -- Number of signals with Static Probability from Simulation                       ; 0 (0.0%)    ; 0 (0.0%)   ; 0 (0.0%)     ; 0 (0.0%)      ;
-;                                                                                        ;             ;            ;              ;               ;
-; Node, entity or clock assignment                                                       ;             ;            ;              ;               ;
-;     -- Number of signals with Toggle Rate from Node, entity or clock assignment        ; 0 (0.0%)    ; 0 (0.0%)   ; 0 (0.0%)     ; 0 (0.0%)      ;
-;     -- Number of signals with Static Probability from Node, entity or clock assignment ; 1 (0.1%)    ; 0 (0.0%)   ; 0 (0.0%)     ; 1 (0.2%)      ;
-;                                                                                        ;             ;            ;              ;               ;
-; Vectorless estimation                                                                  ;             ;            ;              ;               ;
-<<<<<<< HEAD
-;     -- Number of signals with Toggle Rate from Vectorless estimation                   ; 939 (99.1%) ; 19 (67.9%) ; 311 (100.0%) ; 609 (100.0%)  ;
-;     -- Number of signals with Zero toggle rate, from Vectorless estimation             ; 5 (0.5%)    ; 1 (3.6%)   ; 0 (0.0%)     ; 4 (0.7%)      ;
-;     -- Number of signals with Static Probability from Vectorless estimation            ; 938 (98.9%) ; 19 (67.9%) ; 311 (100.0%) ; 608 (99.8%)   ;
-;                                                                                        ;             ;            ;              ;               ;
-; Default assignment                                                                     ;             ;            ;              ;               ;
-;     -- Number of signals with Toggle Rate from Default assignment                      ; 0 (0.0%)    ; 0 (0.0%)   ; 0 (0.0%)     ; 0 (0.0%)      ;
-;     -- Number of signals with Static Probability from Default assignment               ; 9 (0.9%)    ; 9 (32.1%)  ; 0 (0.0%)     ; 0 (0.0%)      ;
-;                                                                                        ;             ;            ;              ;               ;
-; Assumed 0                                                                              ;             ;            ;              ;               ;
-;     -- Number of signals with Toggle Rate assumed 0                                    ; 9 (0.9%)    ; 9 (32.1%)  ; 0 (0.0%)     ; 0 (0.0%)      ;
-=======
-;     -- Number of signals with Toggle Rate from Vectorless estimation                   ; 647 (98.6%) ; 19 (67.9%) ; 243 (100.0%) ; 385 (100.0%)  ;
-;     -- Number of signals with Zero toggle rate, from Vectorless estimation             ; 9 (1.4%)    ; 3 (10.7%)  ; 0 (0.0%)     ; 6 (1.6%)      ;
-;     -- Number of signals with Static Probability from Vectorless estimation            ; 646 (98.5%) ; 19 (67.9%) ; 243 (100.0%) ; 384 (99.7%)   ;
-;                                                                                        ;             ;            ;              ;               ;
-; Default assignment                                                                     ;             ;            ;              ;               ;
-;     -- Number of signals with Toggle Rate from Default assignment                      ; 0 (0.0%)    ; 0 (0.0%)   ; 0 (0.0%)     ; 0 (0.0%)      ;
-;     -- Number of signals with Static Probability from Default assignment               ; 9 (1.4%)    ; 9 (32.1%)  ; 0 (0.0%)     ; 0 (0.0%)      ;
-;                                                                                        ;             ;            ;              ;               ;
-; Assumed 0                                                                              ;             ;            ;              ;               ;
-;     -- Number of signals with Toggle Rate assumed 0                                    ; 9 (1.4%)    ; 9 (32.1%)  ; 0 (0.0%)     ; 0 (0.0%)      ;
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
-+----------------------------------------------------------------------------------------+-------------+------------+--------------+---------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Confidence Metric Details                                                                                                                          ;
++----------------------------------------------------------------------------------------+--------------+------------+---------------+---------------+
+; Data Source                                                                            ; Total        ; Pin        ; Registered    ; Combinational ;
++----------------------------------------------------------------------------------------+--------------+------------+---------------+---------------+
+; Simulation (from file)                                                                 ;              ;            ;               ;               ;
+;     -- Number of signals with Toggle Rate from Simulation                              ; 0 (0.0%)     ; 0 (0.0%)   ; 0 (0.0%)      ; 0 (0.0%)      ;
+;     -- Number of signals with Static Probability from Simulation                       ; 0 (0.0%)     ; 0 (0.0%)   ; 0 (0.0%)      ; 0 (0.0%)      ;
+;                                                                                        ;              ;            ;               ;               ;
+; Node, entity or clock assignment                                                       ;              ;            ;               ;               ;
+;     -- Number of signals with Toggle Rate from Node, entity or clock assignment        ; 0 (0.0%)     ; 0 (0.0%)   ; 0 (0.0%)      ; 0 (0.0%)      ;
+;     -- Number of signals with Static Probability from Node, entity or clock assignment ; 1 (0.0%)     ; 0 (0.0%)   ; 0 (0.0%)      ; 1 (0.1%)      ;
+;                                                                                        ;              ;            ;               ;               ;
+; Vectorless estimation                                                                  ;              ;            ;               ;               ;
+;     -- Number of signals with Toggle Rate from Vectorless estimation                   ; 2722 (99.7%) ; 19 (67.9%) ; 1336 (100.0%) ; 1367 (100.0%) ;
+;     -- Number of signals with Zero toggle rate, from Vectorless estimation             ; 5 (0.2%)     ; 1 (3.6%)   ; 0 (0.0%)      ; 4 (0.3%)      ;
+;     -- Number of signals with Static Probability from Vectorless estimation            ; 2721 (99.6%) ; 19 (67.9%) ; 1336 (100.0%) ; 1366 (99.9%)  ;
+;                                                                                        ;              ;            ;               ;               ;
+; Default assignment                                                                     ;              ;            ;               ;               ;
+;     -- Number of signals with Toggle Rate from Default assignment                      ; 0 (0.0%)     ; 0 (0.0%)   ; 0 (0.0%)      ; 0 (0.0%)      ;
+;     -- Number of signals with Static Probability from Default assignment               ; 9 (0.3%)     ; 9 (32.1%)  ; 0 (0.0%)      ; 0 (0.0%)      ;
+;                                                                                        ;              ;            ;               ;               ;
+; Assumed 0                                                                              ;              ;            ;               ;               ;
+;     -- Number of signals with Toggle Rate assumed 0                                    ; 9 (0.3%)     ; 9 (32.1%)  ; 0 (0.0%)      ; 0 (0.0%)      ;
++----------------------------------------------------------------------------------------+--------------+------------+---------------+---------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------------------------+
@@ -370,22 +298,14 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Power Analyzer
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-<<<<<<< HEAD
-    Info: Processing started: Mon May 01 01:25:20 2023
-=======
-    Info: Processing started: Sun Apr 30 19:29:43 2023
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+    Info: Processing started: Mon May 01 05:24:31 2023
 Info: Command: quartus_pow --read_settings_files=off --write_settings_files=off IITB_RISC_2023 -c IITB_RISC_2023
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
 Critical Warning (332012): Synopsys Design Constraints File file not found: 'IITB_RISC_2023.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
 Warning (332060): Node: input_vector[1] was determined to be a clock but was found without an associated clock assignment.
-<<<<<<< HEAD
-    Info (13166): Register pipeline_stages:add_instance|counter:counter_rf|i[31] is being clocked by input_vector[1]
-=======
-    Info (13166): Register pipeline_stages:add_instance|register_file:rf|regs[0][0] is being clocked by input_vector[1]
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+    Info (13166): Register pipeline_stages:add_instance|registers:pl_reg1|altshift_taps:reg_data_rtl_0|shift_taps_tgl:auto_generated|altsyncram_fv21:altsyncram4|ram_block5a0 is being clocked by input_vector[1]
 Warning (332068): No clocks defined in design.
 Info (223000): Starting Vectorless Power Activity Estimation
 Warning (222013): Relative toggle rates could not be calculated because no clock domain could be identified for some nodes
@@ -396,16 +316,9 @@ Info (334004): Delay annotation completed successfully
 Info (215049): Average toggle rate for this design is 0.000 millions of transitions / sec
 Info (215031): Total thermal power estimate for the design is 229.88 mW
 Info: Quartus Prime Power Analyzer was successful. 0 errors, 5 warnings
-<<<<<<< HEAD
-    Info: Peak virtual memory: 4854 megabytes
-    Info: Processing ended: Mon May 01 01:25:22 2023
+    Info: Peak virtual memory: 4852 megabytes
+    Info: Processing ended: Mon May 01 05:24:33 2023
     Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:02
-=======
-    Info: Peak virtual memory: 4843 megabytes
-    Info: Processing ended: Sun Apr 30 19:29:44 2023
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+    Info: Total CPU time (on all processors): 00:00:03
 
 

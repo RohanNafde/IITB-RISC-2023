@@ -20,13 +20,8 @@ end entity;
 architecture behav of register_file is 
 type mem_array is array (0 to 7 ) of std_logic_vector (15 downto 0);
 signal regs: mem_array :=(
-<<<<<<< HEAD
    x"0000",x"8000", x"8000", x"1100",
 	x"0003",x"FFFF", x"FFFF",x"000C"
-=======
-   x"0000",x"0000", x"F001", x"1100",
-	x"2053",x"FFFF", x"FFFF",x"0000"
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
    ); 
 --pc defined seperately as a signal in IITB_CPU
 begin

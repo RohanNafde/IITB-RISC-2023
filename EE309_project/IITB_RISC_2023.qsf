@@ -85,8 +85,5 @@ set_global_assignment -name VHDL_FILE Data_Memory.vhd
 set_global_assignment -name VHDL_FILE SE6.vhd
 set_global_assignment -name EDA_TEST_BENCH_FILE Tracefile.txt -section_id Testbench.vhdl
 set_global_assignment -name EDA_TEST_BENCH_FILE Testbench.vhd -section_id Testbench.vhdl
-<<<<<<< HEAD
 set_global_assignment -name VHDL_FILE counter.vhd
-=======
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

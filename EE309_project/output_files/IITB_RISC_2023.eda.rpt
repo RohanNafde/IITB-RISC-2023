@@ -1,9 +1,5 @@
 EDA Netlist Writer report for IITB_RISC_2023
-<<<<<<< HEAD
-Mon May 01 01:25:26 2023
-=======
-Sun Apr 30 19:29:48 2023
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+Mon May 01 05:24:38 2023
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -41,11 +37,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-<<<<<<< HEAD
-; EDA Netlist Writer Status ; Successful - Mon May 01 01:25:26 2023 ;
-=======
-; EDA Netlist Writer Status ; Successful - Sun Apr 30 19:29:48 2023 ;
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+; EDA Netlist Writer Status ; Successful - Mon May 01 05:24:38 2023 ;
 ; Revision Name             ; IITB_RISC_2023                        ;
 ; Top-level Entity Name     ; DUT                                   ;
 ; Family                    ; MAX 10                                ;
@@ -89,23 +81,14 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-<<<<<<< HEAD
-    Info: Processing started: Mon May 01 01:25:26 2023
-=======
-    Info: Processing started: Sun Apr 30 19:29:48 2023
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+    Info: Processing started: Mon May 01 05:24:38 2023
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off IITB_RISC_2023 -c IITB_RISC_2023
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (204019): Generated file IITB_RISC_2023.vho in folder "C:/Users/Aakarsh Chaudhary/Documents/Git/IITB-RISC-2023/EE309_project/simulation/modelsim/" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-<<<<<<< HEAD
-    Info: Peak virtual memory: 4643 megabytes
-    Info: Processing ended: Mon May 01 01:25:26 2023
-=======
-    Info: Peak virtual memory: 4657 megabytes
-    Info: Processing ended: Sun Apr 30 19:29:48 2023
->>>>>>> b19f83e0e8c7e58f2ce4e2132705276147518d4d
+    Info: Peak virtual memory: 4660 megabytes
+    Info: Processing ended: Mon May 01 05:24:38 2023
     Info: Elapsed time: 00:00:00
-    Info: Total CPU time (on all processors): 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
 
 
